@@ -36,32 +36,6 @@
 
 .positive {width: 62%; background-color: #4CAF50;} 
 
-.neutral {width: 31%; background-color: #808080;} 
-
-.negative {width: 8%; background-color: #f44336;} 
-
-#container-txt{
-
-  display: flex;
-
-  flex-direction: column;
-
-  width: 75%;
-
-  margin: auto;
-
-}
-
-table{
-
-}
-
-td{
-
-  text-align: center;
-
-}
-
 
 .goldQ {
   margin: 0;
