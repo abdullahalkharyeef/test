@@ -11,7 +11,7 @@
   padding: 1em;
   border-radius: 10px;
   width: 300px;
-  clip-path: circle(10% at 90% 22%);
+  clip-path: circle(10% at 90% 20%);
   transition: all .2s ease-in-out;
   cursor: pointer;
 }
