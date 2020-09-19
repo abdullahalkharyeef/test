@@ -9,8 +9,8 @@
   background: gold;
   padding: 1em;
   border-radius: 10px;
-  width: 400px;
-  clip-path: circle(10% at 90% 34%);
+  width: 300px;
+  clip-path: circle(10% at 90% 25%);
   transition: all .2s ease-in-out;
   cursor: pointer;
 }
