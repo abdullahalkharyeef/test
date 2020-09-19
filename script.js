@@ -1,4 +1,4 @@
-        var tl = gsap.timeline({defaults:{duration: .7, ease: Back.easeOut.config(2), opacity: 0}})
+var tl = gsap.timeline({defaults:{duration: .7, ease: Back.easeOut.config(2), opacity: 0}})
         var tl2 = gsap.timeline({defaults:{duration: 1.5, delay:1}})
         var tl3 = gsap.timeline({defaults:{duration: 1.5}})
         
