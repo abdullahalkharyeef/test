@@ -7,7 +7,7 @@
   font-family: 'Nunito', 'sans-serif';
 }
 
-.inner {
+.Thecircle {
   background: gold;
   padding: 1em;
   border-radius: 10px;
@@ -16,19 +16,19 @@
   transition: all .5s ease-in-out;
   cursor: pointer;
 }
-.inner:hover {
+.Thecircle:hover {
   clip-path: circle(75%);
   background: gold;
 }
-.inner h1 {
+.Thecircle h1 {
   color: white;
   margin: 0;
 }
-.inner p {
+.Thecircle p {
   color: white;
   font-size: .8rem;
 }
-.inner span {
+.Thecircle span {
   float: right;
   color: white;
   font-weight: bold;
@@ -36,6 +36,6 @@
   position: relative;
   margin-right: 4%;
 }
-.inner:hover span {
+.Thecircle:hover span {
   color: rgba(255, 255, 255, 0);
 }
