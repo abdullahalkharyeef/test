@@ -24,13 +24,13 @@
 }
 .Thecircle p {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 .Thecircle span {
   float: right;
   color: black;
   font-weight: bold;
-  transition: color .5s;
+  transition: color .2s;
   position: relative;
   margin-left: 4%;
   margin-right: 2%;
