@@ -3,6 +3,7 @@
   display: grid;
   justify-items: center;
   align-items: center;
+  margin-top: 2%;
 }
 
 .Thecircle {
@@ -20,7 +21,7 @@
 }
 .Thecircle h1 {
   color: black;
-  margin: 0 4px 0 0;
+  margin: 0;
 }
 .Thecircle p {
   color: black;
