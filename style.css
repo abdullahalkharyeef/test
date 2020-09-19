@@ -28,11 +28,11 @@
 }
 .Thecircle span {
   float: right;
-  color: white;
+  color: black;
   font-weight: bold;
   transition: color .5s;
   position: relative;
-  margin-right: 4%;
+  margin-left: 4%;
 }
 .Thecircle:hover span {
   color: rgba(255, 255, 255, 0);
