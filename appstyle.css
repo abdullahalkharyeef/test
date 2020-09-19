@@ -58,13 +58,13 @@ html {
   height: 100%;
   margin: 0;
 }
-.body {background: #346a68;} 
+.body {width; 100%; background: #346a68;} 
 html .body {
   /* The image used */
   background-image: url("backgroundG.svg");
   /* Full height */
   height: 100%; 
-  width; 100%;
+  
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
