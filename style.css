@@ -10,7 +10,7 @@
   padding: 1em;
   border-radius: 10px;
   width: 550px;
-  clip-path: circle(10% at 90% 34%);
+  clip-path: circle(10% at 90% 50%);
   transition: all .5s ease-in-out;
   cursor: pointer;
 }
@@ -21,6 +21,7 @@
 .Thecircle h1 {
   color: white;
   margin: 0;
+  padding-right: 3px;
 }
 .Thecircle p {
   color: white;
