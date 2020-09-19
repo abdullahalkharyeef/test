@@ -541,7 +541,7 @@ function answer10 (x) {
         boxone.points= true;
         boxone.lasttext= true;
 //      myApp1.guide11 = true:
-        boxone.percentOfAnswers = percent;
+        boxone.percentOfAnswer = percent;
         document.getElementsByClassName("positive").style.width = percent+ "%";
     } else {
         boxone.optionansr10= false;
@@ -549,7 +549,7 @@ function answer10 (x) {
 //      myApp1.guide110 = true;
         boxone.points= true;
         boxone.lasttext= true;
-        boxone.percentOfAnswers = percent;
+        boxone.percentOfAnswer = percent;
         document.getElementsByClassName("positive").style.width = percent+ "%";
     }
 }
@@ -1470,7 +1470,7 @@ function answer10 (x) {
         boxone.five10= false;
         boxone.threeA10= "الإجابة صحيحة";
         myApp1.guide110= true;
-        boxone.percentOfAnswers = percent;
+        boxone.percentOfAnswern= percent;
         document.getElementsByClassName("positive").style.width = percent+ "%";
         }
     
@@ -1509,7 +1509,7 @@ function answer10 (x) {
             boxone.fiveA10= "الإجابة خاطئة";
         }
          myApp1.guide110 = true;
-         boxone.percentOfAnswers = percent;
+         boxone.percentOfAnswer = percent;
          document.getElementsByClassName("positive").style.width = percent+ "%";
     }
 
