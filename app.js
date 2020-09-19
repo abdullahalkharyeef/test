@@ -8,6 +8,13 @@ var myApp = new Vue({
     }
 })
 
+var animate = new Vue({
+    el: '#animate',
+    data: {
+        animation: true,
+    }
+})
+
 var boxone = new Vue({
     el: '#boxone',
     data: {
@@ -474,6 +481,7 @@ function answer10 (x) {
         App.Audio=false;
         myApp1.card1= true;
         myApp.title= true;
+        animate.animation= false;
     }
     
     // Q1
