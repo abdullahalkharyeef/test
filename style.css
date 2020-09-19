@@ -33,7 +33,7 @@
   transition: color .2s;
   position: relative;
   margin-left: 4%;
-  margin-right: 2%;
+/*   margin-right: 2%; */
 }
 .Thecircle:hover span {
   color: rgba(255, 255, 255, 0);
