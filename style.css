@@ -1,3 +1,68 @@
+
+
+#container_all{
+
+  display: flex;
+
+  flex-direction: column;
+
+  width: 75%;
+
+  margin: auto;
+
+}
+
+.container {
+
+  width: 100%;
+
+  background-color: #ddd; 
+
+}
+
+.feeling {
+
+  text-align: right; 
+
+  padding-top: 10px; 
+
+  padding-bottom: 10px; 
+
+  padding-right: 10px;
+
+  color: white; 
+
+}
+
+.positive {width: 62%; background-color: #4CAF50;} 
+
+.neutral {width: 31%; background-color: #808080;} 
+
+.negative {width: 8%; background-color: #f44336;} 
+
+#container-txt{
+
+  display: flex;
+
+  flex-direction: column;
+
+  width: 75%;
+
+  margin: auto;
+
+}
+
+table{
+
+}
+
+td{
+
+  text-align: center;
+
+}
+
+
 .goldQ {
   margin: 0;
   display: grid;
