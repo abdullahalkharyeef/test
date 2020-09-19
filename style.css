@@ -1,9 +1,3 @@
-body {
-  background: #343434;
-  color: white;
-  font-family: 'Nunito';
-}
-
 svg {
   position: absolute;
   z-index: 0;
