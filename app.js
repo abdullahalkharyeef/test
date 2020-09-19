@@ -605,7 +605,6 @@ function answer10 (x) {
         boxone.four1= false;
         boxone.five1= false;
         boxone.threeA1= "الإجابة صحيحة";
-        myApp1.goldQ=true;
     }
     
     function fouroneA (x) {
@@ -643,7 +642,6 @@ function answer10 (x) {
             boxone.fiveA1= "الإجابة خاطئة";
         }
         myApp1.guide2 = true;
-        myApp1.goldQ=true;
     }
     
     // Q2
@@ -699,7 +697,6 @@ function answer10 (x) {
         boxone.four2= false;
         boxone.five2= false;
         boxone.threeA2= "الإجابة صحيحة";
-        myApp1.goldQ=true;
     }
     
     function fouroneA2 (x) {
@@ -737,7 +734,6 @@ function answer10 (x) {
             boxone.fiveA2= "الإجابة خاطئة";
         }
         myApp1.guide3 = true;
-        myApp1.goldQ=true;
     }
     
     
@@ -794,7 +790,6 @@ function answer10 (x) {
         boxone.four3= false;
         boxone.five3= false;
         boxone.threeA3= "الإجابة صحيحة";
-        myApp1.goldQ=true;
     }
     
     function fouroneA3 (x) {
@@ -832,7 +827,6 @@ function answer10 (x) {
             boxone.fiveA3= "الإجابة خاطئة";
         }
         myApp1.guide4 = true;
-        myApp1.goldQ=true;
     }
     
     
@@ -890,7 +884,6 @@ function answer10 (x) {
         boxone.four4= false;
         boxone.five4= false;
         boxone.threeA4= "الإجابة صحيحة";
-        myApp1.goldQ=true;
     }
     
     function fouroneA4 (x) {
@@ -928,7 +921,6 @@ function answer10 (x) {
             boxone.fiveA4= "الإجابة خاطئة";
         }
         myApp1.guide5 = true;
-        myApp1.goldQ=true;
     }
     
     
@@ -985,7 +977,6 @@ function answer10 (x) {
         boxone.four5= false;
         boxone.five5= false;
         boxone.threeA5= "الإجابة صحيحة";
-        myApp1.goldQ=true;
     }
     
     function fouroneA5 (x) {
@@ -1023,7 +1014,6 @@ function answer10 (x) {
             boxone.fiveA5= "الإجابة خاطئة";
         }
         myApp1.guide6 = true;
-        myApp1.goldQ=true;
     }
     
     
@@ -1080,7 +1070,6 @@ function answer10 (x) {
         boxone.four6= false;
         boxone.five6= false;
         boxone.threeA6= "الإجابة صحيحة";
-        myApp1.goldQ=true;
     }
     
     function fouroneA6 (x) {
@@ -1118,7 +1107,6 @@ function answer10 (x) {
             boxone.fiveA6= "الإجابة خاطئة";
         }
         myApp1.guide7 = true;
-        myApp1.goldQ=true;
     }
     
     // Q7
@@ -1174,7 +1162,6 @@ function answer10 (x) {
         boxone.four7= false;
         boxone.five7= false;
         boxone.threeA7= "الإجابة صحيحة";
-        myApp1.goldQ=true;
     }
     
     function fouroneA7 (x) {
@@ -1212,7 +1199,6 @@ function answer10 (x) {
             boxone.fiveA7= "الإجابة خاطئة";
         }
         myApp1.guide8 = true;
-        myApp1.goldQ=true;
     }
     
     
@@ -1269,7 +1255,6 @@ function answer10 (x) {
         boxone.four8= false;
         boxone.five8= false;
         boxone.threeA8= "الإجابة صحيحة";
-        myApp1.goldQ=true;
     }
     
     function fouroneA8 (x) {
@@ -1307,7 +1292,6 @@ function answer10 (x) {
             boxone.fiveA8= "الإجابة خاطئة";
         }
         myApp1.guide9 = true;
-        myApp1.goldQ=true;
     }
     
     
@@ -1364,7 +1348,6 @@ function answer10 (x) {
         boxone.four9= false;
         boxone.five9= false;
         boxone.threeA9= "الإجابة صحيحة";
-        myApp1.goldQ=true;
     }
     
     function fouroneA9 (x) {
@@ -1402,7 +1385,6 @@ function answer10 (x) {
             boxone.fiveA9= "الإجابة خاطئة";
         }
         myApp1.guide10 = true;
-        myApp1.goldQ=true;
     }
     
     
