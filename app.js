@@ -376,7 +376,7 @@ var App = new Vue({
 
 var percent = (boxone.point/50)*100;
 
-for (myApp1.guide1 == true || myApp1.guide2 == true || myApp1.guide3 == true || myApp1.guide4 == true || myApp1.guide5 == true || myApp1.guide6 == true || myApp1.guide7 == true || myApp1.guide8 == true || myApp.guide9 == true) {
+while (myApp1.guide1 == true || myApp1.guide2 == true || myApp1.guide3 == true || myApp1.guide4 == true || myApp1.guide5 == true || myApp1.guide6 == true || myApp1.guide7 == true || myApp1.guide8 == true || myApp.guide9 == true) {
      myApp1.goldQ=true;
 } else {
      myApp1.goldQ=false;
