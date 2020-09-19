@@ -1,38 +1,41 @@
 .goldQ {
   margin: 0;
+  height: 100vh;
   display: grid;
   justify-items: center;
   align-items: center;
+  font-family: 'Nunito', 'sans-serif';
 }
 
-.Thecircle {
-  background: #FFD700;
+.inner {
+  background: gold;
   padding: 1em;
   border-radius: 10px;
-  width: 550px;
-  clip-path: circle(10% at 90% 50%);
+  width: 250px;
+  clip-path: circle(10% at 90% 20%);
   transition: all .5s ease-in-out;
   cursor: pointer;
 }
-.Thecircle:hover {
+.inner:hover {
   clip-path: circle(75%);
-  background: #FFD700;
+  background: gold;
 }
-.Thecircle h1 {
+.inner h1 {
   color: white;
   margin: 0;
-  margin-left: 5px;
 }
-.Thecircle p {
+.inner p {
   color: white;
   font-size: .8rem;
 }
-.Thecircle span {
+.inner span {
   float: right;
+  color: white;
+  font-weight: bold;
   transition: color .5s;
   position: relative;
-  padding-right: 4%;
+  margin-right: 4%;
 }
-.Thecircle:hover span {
+.inner:hover span {
   color: rgba(255, 255, 255, 0);
 }
