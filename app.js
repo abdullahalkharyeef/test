@@ -46,11 +46,11 @@ function checkCookie() {
 
   if (user != "") {
 
-    alert("Welcome again " + user);
+    alert("مرحبا بـ " + user);
 
   } else {
 
-     user = prompt("Please enter your name:","");
+     user = prompt("من فضلك ادخل اسمك:","");
 
      if (user != "" && user != null) {
 
@@ -79,6 +79,7 @@ var boxone = new Vue({
     data: {
         boxone: false,
         lasttext: false,
+        percentOfAnswer:0,
         point: 0,
         points: false,
         optionansr1: false,
@@ -373,7 +374,7 @@ var App = new Vue({
 //                 myApp1.guide10 = true;
 //             }
 
-
+var percent = (boxone.point/50)*100;
 
 function answer1 (x) {
     if(document.getElementById("answerA1").value===boxone.threeA1 || document.getElementById("answerA1").value==="الفارسي"){
@@ -539,13 +540,15 @@ function answer10 (x) {
         boxone.optionansr10= false;
         boxone.points= true;
         boxone.lasttext= true;
-//      myApp1.guide11 = true;
+//      myApp1.guide11 = true:
+        boxone.percentOfAnswers = percent;
     } else {
         boxone.optionansr10= false;
         boxone.inputansr10= false;
 //      myApp1.guide110 = true;
         boxone.points= true;
         boxone.lasttext= true;
+        boxone.percentOfAnswers = percent;
     }
 }
 
@@ -1465,6 +1468,7 @@ function answer10 (x) {
         boxone.five10= false;
         boxone.threeA10= "الإجابة صحيحة";
         myApp1.guide110= true;
+        boxone.percentOfAnswers = percent;
         }
     
     function fouroneA10 (x) {
@@ -1502,6 +1506,7 @@ function answer10 (x) {
             boxone.fiveA10= "الإجابة خاطئة";
         }
          myApp1.guide110 = true;
+         boxone.percentOfAnswers = percent;
     }
 
     function guideone110() {
@@ -1511,7 +1516,8 @@ function answer10 (x) {
         titlereturn ();
     }
     
-    
+   document.getElementsByClassName("positive").style.width = percent+ "%";
+
     //  var myApp2 = new Vue({
     //     el: '#apptwo',
     //     data: {
