@@ -79,8 +79,8 @@ var boxone = new Vue({
     data: {
         boxone: false,
         lasttext: false,
-        percentOfAnswer:(boxone.point/50)*100,
         point: 0,
+        percentOfAnswer:(boxone.point/50)*100,
         points: false,
         optionansr1: false,
         optionansr2: false,
