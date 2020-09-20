@@ -20,21 +20,15 @@
 
 }
 
-.feeling {
-
+.positive {
   text-align: right; 
-
   padding-top: 10px; 
-
   padding-bottom: 10px; 
-
   padding-right: 10px;
-
   color: white; 
-
-}
-
-.positive {width: 62%; background-color: #4CAF50;} 
+  width: 62%;
+  background-color: #4CAF50;
+} 
 
 
 .goldQ {
