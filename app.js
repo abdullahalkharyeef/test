@@ -79,7 +79,7 @@ var boxone = new Vue({
     data: {
         boxone: false,
         lasttext: false,
-        percentOfAnswer:0,
+        percentOfAnswer:(boxone.point/50)*100,
         point: 0,
         points: false,
         optionansr1: false,
@@ -374,7 +374,6 @@ var App = new Vue({
 //                 myApp1.guide10 = true;
 //             }
 
-var percent = (boxone.point/50)*100;
 
 function answer1 (x) {
     if(document.getElementById("answerA1").value===boxone.threeA1 || document.getElementById("answerA1").value==="الفارسي"){
@@ -558,8 +557,7 @@ function answer10 (x) {
 //      myApp1.guide110 = true;
         boxone.points= true;
         boxone.lasttext= true;
-        boxone.percentOfAnswer = percent + "%";
-        document.getElementsByClassName("positive").style.width = percent;
+        document.getElementsByClassName("positive").style.width = boxone.percentOfAnswer+ "%";
     }
 }
 
@@ -1479,8 +1477,7 @@ function answer10 (x) {
         boxone.five10= false;
         boxone.threeA10= "الإجابة صحيحة";
         myApp1.guide110= true;
-        boxone.percentOfAnswern= percent + "%";
-        document.getElementsByClassName("positive").style.width = percent;
+        document.getElementsByClassName("positive").style.width = boxone.percentOfAnswer+ "%";
         }
     
     function fouroneA10 (x) {
@@ -1518,9 +1515,8 @@ function answer10 (x) {
             boxone.fiveA10= "الإجابة خاطئة";
         }
          myApp1.guide110 = true;
-         boxone.percentOfAnswer = percent +"%";
-         document.getElementsByClassName("positive").style.width = percent;
-    }
+         document.getElementsByClassName("positive").style.width = boxone.percentOfAnswer+ "%";
+     }
 
     function guideone110() {
         myApp1.guide110= false;
