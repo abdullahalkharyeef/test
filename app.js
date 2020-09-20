@@ -380,17 +380,15 @@ function answer1 (x) {
         boxone.point=boxone.point+5;
         boxone.inputansr1= false;
         myApp1.guide2 = true;
-        myApp1.goldQ=true;
+
     } else {
         boxone.inputansr1= false;
         myApp1.guide2 = true;
-        myApp1.goldQ=true;
     }
     if (x===1){
         boxone.optionansr1=true;
         boxone.inputansr1=false;
-        myApp1.goldQ=false;
-    }
+   }
     }
 
 
@@ -623,7 +621,6 @@ function answer10 (x) {
         boxone.four1= false;
         boxone.five1= false;
         boxone.threeA1= "الإجابة صحيحة";
-        myApp1.goldQ=true;
     }
     
     function fouroneA (x) {
@@ -661,7 +658,6 @@ function answer10 (x) {
             boxone.fiveA1= "الإجابة خاطئة";
         }
         myApp1.guide2 = true;
-        myApp1.goldQ=false;
     }
     
     // Q2
