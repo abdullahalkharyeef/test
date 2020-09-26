@@ -4,9 +4,9 @@ var heightD = window.screen.height;
 var headerD = (heightD * 0.20) + "px";
 var contentD = (heightD * 0.60)+ "px";
 var footerD = (heightD * 0.20)+ "px";
-document.getElementById("headerDv").style.height= headerD;
-document.getElementById("contentDv").style.height= contentD;
-document.getElementById("footerDv").style.height= footerD;
+// document.getElementById("headerDv").style.height= headerD;
+// document.getElementById("contentDv").style.height= contentD;
+// document.getElementById("footerDv").style.height= footerD;
   
 
 
