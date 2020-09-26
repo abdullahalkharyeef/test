@@ -1,4 +1,4 @@
-// document.documentElement.clientHeight 
+ document.documentElement.clientHeight = 500px; 
 
 function setCookie(cname,cvalue,exdays) {
 
