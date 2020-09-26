@@ -1,4 +1,19 @@
  
+var heightD = window.screen.height;
+
+var header = heightD * 20%;
+var content = heightD * 60%;
+var footer = heightD * 20%;
+
+function evaluateH ( ) {
+
+   document.getElementById("header").style.height= header +"px";
+   document.getElementById("content").style.height= content +"px";
+   document.getElementById("footer").style.height= footer +"px";
+  
+}
+
+
 
 function setCookie(cname,cvalue,exdays) {
 
@@ -164,7 +179,7 @@ var boxone = new Vue({
         two10: false,
         four10: false,
         five10: false,
-        fiveA1: window.screen.height,
+        fiveA1: "صهيب الرومي",
         fourA1: "أبو أيوب خالد بن زيد بن كليب الأنصاري",
         threeA1:"سلمان الفارسي",
         twoA1: "سعد بن معاذ",
