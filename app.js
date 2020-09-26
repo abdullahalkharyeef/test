@@ -1,5 +1,5 @@
  
-// var heightD = window.screen.height;
+var heightD = window.screen.height;
 
 // var headerD = heightD * 20%;
 // var contentD = heightD * 60%;
