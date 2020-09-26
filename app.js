@@ -1,4 +1,4 @@
- document.documentElement.clientHeight = 500px; 
+ 
 
 function setCookie(cname,cvalue,exdays) {
 
@@ -164,7 +164,7 @@ var boxone = new Vue({
         two10: false,
         four10: false,
         five10: false,
-        fiveA1: "صهيب الرومي",
+        fiveA1: window.screen.height,
         fourA1: "أبو أيوب خالد بن زيد بن كليب الأنصاري",
         threeA1:"سلمان الفارسي",
         twoA1: "سعد بن معاذ",
