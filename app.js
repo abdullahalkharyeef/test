@@ -1,17 +1,14 @@
  
 var heightD = window.screen.height;
 
-var header = heightD * 20%;
-var content = heightD * 60%;
-var footer = heightD * 20%;
-
-function evaluateH ( ) {
-
-   document.getElementById("header").style.height= header +"px";
-   document.getElementById("content").style.height= content +"px";
-   document.getElementById("footer").style.height= footer +"px";
+var headerD = heightD * 20%;
+var contentD = heightD * 60%;
+var footerD = heightD * 20%;
+document.getElementById("headerDv").style.height= headerD +"px";
+document.getElementById("contentDv").style.height= contentD +"px";
+document.getElementById("footerDv").style.height= footerD +"px";
   
-}
+
 
 
 
