@@ -1,3 +1,5 @@
+// document.documentElement.clientHeight 
+
 function setCookie(cname,cvalue,exdays) {
 
   var d = new Date();
