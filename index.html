@@ -1,20 +1,26 @@
 <!doctype html>
+
 <html lang="ar" dir="rtl">
+
+
 <head>
 <title>test</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="appstyle.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-</head> 
+</head>
+
 <body class="body" onload="checkCookie()">
-<div id="headerDv">
+
 <div id="app">
 <div v-if="Audio"><br><br><br><br><br>
 <div class="card 1">
 <div class="card_image" onclick="play()"><img src="icon0.svg"></div>
 </div>
 </div> <!-- div v-if audio -->
-</div> <!-- div app id -->  
+</div> <!-- div app id -->
+
+
 
 
 
@@ -25,13 +31,14 @@
 <div class="card_imageme"> <img src="icon.svg" />
 <img v-if="apptitlereturn" onclick="titlereturn()" src="" />
 </div>
+
 </div></div></div>
 
-</div>
 
 
 
-<div id="contentDv">
+
+
 
 <div class="cards-list">
 <div id="appone">
@@ -41,7 +48,7 @@
 
 <div class="card_image">
 <img v-if="img1" onclick="clickone()" src="backgroundGf.gif">
-<img v-if="img2" src="backgroundG.svg" style="background: #346a68">
+<img v-if="img2" src="backgroundGf.jpeg" style="background: #346a68">
 </div>
 
 <p v-if="img1" style="color: white" class="card_title1 title-white" onclick="clickone()"><br><br><br><br>اضمر الصحابي</p>
@@ -102,23 +109,87 @@
 </div> <!-- div v-if card1 -->
 <br>
 
-            <div class="goldQ" v-if="goldQ">
-        <div class="Thecircle">
-            <span>السؤال<br> الذهبي</span>
-            <h1>مرحبًا</h1>
-            <p>السؤال الذهبي هو فرصة واحدة تتكون من تلميحة واحدة تكون لتفويت النقص</p>
-        </div>
-    </div>
-            
-            
+
+<div class="goldQ" v-if="goldQ">
+	<div class="Thecircle">
+		<span>السؤال<br> الذهبي</span>
+		<h1>مرحبًا</h1>
+		<p>السؤال الذهبي هو فرصة واحدة تتكون من تلميحة واحدة تكون لتفويت النقص</p>
+	</div>
+</div>
+
+
+<!-- next btn underline -->
+<p class="nextbtn" onclick="guideone11()" v-if="textproject">التالي</p>
+<p class="nextbtn" onclick="guideone12()" v-if="guideone1">التالي</p>
+<p class="nextbtn" onclick="guideone13()" v-if="guidetwo1">التالي</p>
+<p class="nextbtn" onclick="guideone14()" v-if="guidethree1">التالي</p>
+<p class="nextbtn" onclick="guideone15()" v-if="guidefour1">التالي</p>
+<p class="nextbtn" onclick="ansrguide1()" v-if="answersguide1">التالي</p>
+<p class="nextbtn" onclick="guideone20()" v-if="guide2">التالي</p>
+<p class="nextbtn" onclick="guideone21()" v-if="guideone2">التالي</p>
+<p class="nextbtn" onclick="guideone22()" v-if="guidetwo2">التالي</p>
+<p class="nextbtn" onclick="guideone23()" v-if="guidethree2">التالي</p>
+<p class="nextbtn" onclick="guideone24()" v-if="guidefour2">التالي</p>
+<p class="nextbtn" onclick="ansrguide2()" v-if="answersguide2">التالي</p>
+<p class="nextbtn" onclick="guideone30()" v-if="guide3">التالي</p>
+<p class="nextbtn" onclick="guideone31()" v-if="guideone3">التالي</p>
+<p class="nextbtn" onclick="guideone32()" v-if="guidetwo3">التالي</p>
+<p class="nextbtn" onclick="guideone33()" v-if="guidethree3">التالي</p>
+<p class="nextbtn" onclick="guideone34()" v-if="guidefour3">التالي</p>
+<p class="nextbtn" onclick="ansrguide3()" v-if="answersguide3">التالي</p>
+<p class="nextbtn" onclick="guideone40()" v-if="guide4">التالي</p>
+<p class="nextbtn" onclick="guideone41()" v-if="guideone4">التالي</p>
+<p class="nextbtn" onclick="guideone42()" v-if="guidetwo4">التالي</p>
+<p class="nextbtn" onclick="guideone43()" v-if="guidethree4">التالي</p>
+<p class="nextbtn" onclick="guideone44()" v-if="guidefour4">التالي</p>
+<p class="nextbtn" onclick="ansrguide4()" v-if="answersguide4">التالي</p>
+<p class="nextbtn" onclick="guideone50()" v-if="guide5">التالي</p>
+<p class="nextbtn" onclick="guideone51()" v-if="guideone5">التالي</p>
+<p class="nextbtn" onclick="guideone52()" v-if="guidetwo5">التالي</p>
+<p class="nextbtn" onclick="guideone53()" v-if="guidethree5">التالي</p>
+<p class="nextbtn" onclick="guideone54()" v-if="guidefour5">التالي</p>
+<p class="nextbtn" onclick="ansrguide5()" v-if="answersguide5">التالي</p>
+<p class="nextbtn" onclick="guideone60()" v-if="guide6">التالي</p>
+<p class="nextbtn" onclick="guideone61()" v-if="guideone6">التالي</p>
+<p class="nextbtn" onclick="guideone62()" v-if="guidetwo6">التالي</p>
+<p class="nextbtn" onclick="guideone63()" v-if="guidethree6">التالي</p>
+<p class="nextbtn" onclick="guideone64()" v-if="guidefour6">التالي</p>
+<p class="nextbtn" onclick="ansrguide6()" v-if="answersguide6">التالي</p>
+<p class="nextbtn" onclick="guideone70()" v-if="guide7">التالي</p>
+<p class="nextbtn" onclick="guideone71()" v-if="guideone7">التالي</p>
+<p class="nextbtn" onclick="guideone72()" v-if="guidetwo7">التالي</p>
+<p class="nextbtn" onclick="guideone73()" v-if="guidethree7">التالي</p>
+<p class="nextbtn" onclick="guideone74()" v-if="guidefour7">التالي</p>
+<p class="nextbtn" onclick="ansrguide7()" v-if="answersguide7">التالي</p>
+<p class="nextbtn" onclick="guideone80()" v-if="guide8">التالي</p>
+<p class="nextbtn" onclick="guideone81()" v-if="guideone8">التالي</p>
+<p class="nextbtn" onclick="guideone82()" v-if="guidetwo8">التالي</p>
+<p class="nextbtn" onclick="guideone83()" v-if="guidethree8">التالي</p>
+<p class="nextbtn" onclick="guideone84()" v-if="guidefour8">التالي</p>
+<p class="nextbtn" onclick="ansrguide8()" v-if="answersguide8">التالي</p>
+<p class="nextbtn" onclick="guideone90()" v-if="guide9">التالي</p>
+<p class="nextbtn" onclick="guideone91()" v-if="guideone9">التالي</p>
+<p class="nextbtn" onclick="guideone92()" v-if="guidetwo9">التالي</p>
+<p class="nextbtn" onclick="guideone93()" v-if="guidethree9">التالي</p>
+<p class="nextbtn" onclick="guideone94()" v-if="guidefour9">التالي</p>
+<p class="nextbtn" onclick="ansrguide9()" v-if="answersguide9">التالي</p>
+<p class="nextbtn" onclick="guideone100()" v-if="guide10">التالي</p>
+<p class="nextbtn" onclick="guideone101()" v-if="guideone10">التالي</p>
+<p class="nextbtn" onclick="guideone102()" v-if="guidetwo10">التالي</p>
+<p class="nextbtn" onclick="guideone103()" v-if="guidethree10">التالي</p>
+<p class="nextbtn" onclick="guideone104()" v-if="guidefour10">التالي</p>
+<p class="nextbtn" onclick="ansrguide10()" v-if="answersguide10">التالي</p>
+<p class="nextbtn" onclick="guideone110()" v-if="guide110">التالي</p>
+</div>
+
+
+
+
 <div id="boxone" v-if="boxone">
 <p v-if="lasttext" style="text-align:center; font-size:35px; color:white;"><br><br><br><br>انتهت المسابقة <br> على أمل أن نجدد الأسئلة <br> ونزيدها قريباً بأذن الله ⁦❤️⁩</p>
 <p v-if="points" style="text-align:center; font-size:35px; color:white;">النقاط: 50/{{point}}</p>
-<div id="container_all" v-if="points">  
-<div class="container">
-  <div class="positive">{{percentOfAnswer}}٪</div>
-</div>
-</div>
+
 
 
 <div id="formAnswer" v-if="inputansr1" >
@@ -412,80 +483,6 @@
 </div> <!-- div v-if optionansr10 -->
 
 </div> <!-- div v-if boxone -->
-            
-            </div>
-            
-            
-      <div id="footer">
-      
-<!-- next btn underline -->
-<p class="nextbtn" onclick="guideone11()" v-if="textproject">التالي</p>
-<p class="nextbtn" onclick="guideone12()" v-if="guideone1">التالي</p>
-<p class="nextbtn" onclick="guideone13()" v-if="guidetwo1">التالي</p>
-<p class="nextbtn" onclick="guideone14()" v-if="guidethree1">التالي</p>
-<p class="nextbtn" onclick="guideone15()" v-if="guidefour1">التالي</p>
-<p class="nextbtn" onclick="ansrguide1()" v-if="answersguide1">التالي</p>
-<p class="nextbtn" onclick="guideone20()" v-if="guide2">التالي</p>
-<p class="nextbtn" onclick="guideone21()" v-if="guideone2">التالي</p>
-<p class="nextbtn" onclick="guideone22()" v-if="guidetwo2">التالي</p>
-<p class="nextbtn" onclick="guideone23()" v-if="guidethree2">التالي</p>
-<p class="nextbtn" onclick="guideone24()" v-if="guidefour2">التالي</p>
-<p class="nextbtn" onclick="ansrguide2()" v-if="answersguide2">التالي</p>
-<p class="nextbtn" onclick="guideone30()" v-if="guide3">التالي</p>
-<p class="nextbtn" onclick="guideone31()" v-if="guideone3">التالي</p>
-<p class="nextbtn" onclick="guideone32()" v-if="guidetwo3">التالي</p>
-<p class="nextbtn" onclick="guideone33()" v-if="guidethree3">التالي</p>
-<p class="nextbtn" onclick="guideone34()" v-if="guidefour3">التالي</p>
-<p class="nextbtn" onclick="ansrguide3()" v-if="answersguide3">التالي</p>
-<p class="nextbtn" onclick="guideone40()" v-if="guide4">التالي</p>
-<p class="nextbtn" onclick="guideone41()" v-if="guideone4">التالي</p>
-<p class="nextbtn" onclick="guideone42()" v-if="guidetwo4">التالي</p>
-<p class="nextbtn" onclick="guideone43()" v-if="guidethree4">التالي</p>
-<p class="nextbtn" onclick="guideone44()" v-if="guidefour4">التالي</p>
-<p class="nextbtn" onclick="ansrguide4()" v-if="answersguide4">التالي</p>
-<p class="nextbtn" onclick="guideone50()" v-if="guide5">التالي</p>
-<p class="nextbtn" onclick="guideone51()" v-if="guideone5">التالي</p>
-<p class="nextbtn" onclick="guideone52()" v-if="guidetwo5">التالي</p>
-<p class="nextbtn" onclick="guideone53()" v-if="guidethree5">التالي</p>
-<p class="nextbtn" onclick="guideone54()" v-if="guidefour5">التالي</p>
-<p class="nextbtn" onclick="ansrguide5()" v-if="answersguide5">التالي</p>
-<p class="nextbtn" onclick="guideone60()" v-if="guide6">التالي</p>
-<p class="nextbtn" onclick="guideone61()" v-if="guideone6">التالي</p>
-<p class="nextbtn" onclick="guideone62()" v-if="guidetwo6">التالي</p>
-<p class="nextbtn" onclick="guideone63()" v-if="guidethree6">التالي</p>
-<p class="nextbtn" onclick="guideone64()" v-if="guidefour6">التالي</p>
-<p class="nextbtn" onclick="ansrguide6()" v-if="answersguide6">التالي</p>
-<p class="nextbtn" onclick="guideone70()" v-if="guide7">التالي</p>
-<p class="nextbtn" onclick="guideone71()" v-if="guideone7">التالي</p>
-<p class="nextbtn" onclick="guideone72()" v-if="guidetwo7">التالي</p>
-<p class="nextbtn" onclick="guideone73()" v-if="guidethree7">التالي</p>
-<p class="nextbtn" onclick="guideone74()" v-if="guidefour7">التالي</p>
-<p class="nextbtn" onclick="ansrguide7()" v-if="answersguide7">التالي</p>
-<p class="nextbtn" onclick="guideone80()" v-if="guide8">التالي</p>
-<p class="nextbtn" onclick="guideone81()" v-if="guideone8">التالي</p>
-<p class="nextbtn" onclick="guideone82()" v-if="guidetwo8">التالي</p>
-<p class="nextbtn" onclick="guideone83()" v-if="guidethree8">التالي</p>
-<p class="nextbtn" onclick="guideone84()" v-if="guidefour8">التالي</p>
-<p class="nextbtn" onclick="ansrguide8()" v-if="answersguide8">التالي</p>
-<p class="nextbtn" onclick="guideone90()" v-if="guide9">التالي</p>
-<p class="nextbtn" onclick="guideone91()" v-if="guideone9">التالي</p>
-<p class="nextbtn" onclick="guideone92()" v-if="guidetwo9">التالي</p>
-<p class="nextbtn" onclick="guideone93()" v-if="guidethree9">التالي</p>
-<p class="nextbtn" onclick="guideone94()" v-if="guidefour9">التالي</p>
-<p class="nextbtn" onclick="ansrguide9()" v-if="answersguide9">التالي</p>
-<p class="nextbtn" onclick="guideone100()" v-if="guide10">التالي</p>
-<p class="nextbtn" onclick="guideone101()" v-if="guideone10">التالي</p>
-<p class="nextbtn" onclick="guideone102()" v-if="guidetwo10">التالي</p>
-<p class="nextbtn" onclick="guideone103()" v-if="guidethree10">التالي</p>
-<p class="nextbtn" onclick="guideone104()" v-if="guidefour10">التالي</p>
-<p class="nextbtn" onclick="ansrguide10()" v-if="answersguide10">التالي</p>
-<p class="nextbtn" onclick="guideone110()" v-if="guide110">التالي</p>
-</div>
-            
-            </div>
-
-
-
 </div> <!-- div complete appone -->
 
 
@@ -521,13 +518,10 @@
 <p v-if="text">المسابقة الرابعة</p> <p v-if="textproject">فكرة المسابقة الرابعة</p>
 </div>
 </div> -->
+
 </div>
 
-
-  
-  
+</body>
 <script src="vue.js"></script>
 <script src="app.js"></script>
-
-</body>
 </html>
