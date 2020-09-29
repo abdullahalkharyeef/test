@@ -223,7 +223,7 @@ html .body {
   border-radius: 50px;
 }
 
-.card .card_image img {
+.card .card_image input {
   width: inherit;
   height: inherit;
   border-radius: 50px;
@@ -261,7 +261,6 @@ html .body {
   color: black;
 }
 #scrollpage {
-/*  background-image: url("svg/feather-alt-duotone.svg");*/
   overflow-x:scroll;
   height: 100%;
   background-position: center;
@@ -369,7 +368,7 @@ html .body {
   border-radius: 10px;
 }
 
-.cardme .card_imageme img {
+.cardme .card_imageme input {
   width: inherit;
   height: inherit;
   border-radius: 10px;
