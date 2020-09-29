@@ -22,7 +22,7 @@
 <div id="app">
 <div v-if="Audio"><br><br><br><br><br>
 <div class="card 1">
-<div class="card_image" onclick="play()"><img src="icon0.svg"></div>
+<div class="card_image" onclick="play()"><input type="image"l src="icon0.svg">
 </div>
 </div> <!-- div v-if audio -->
 </div> <!-- div app id -->
@@ -30,12 +30,11 @@
 
 
 
-
 <!--<header>-->
 <div id="apptitle" class="header">
 <div v-if="title">
 <div class="cardme">
-<div class="card_imageme"> <img src="icon.svg" />
+<div class="card_imageme"> <input type="image" src="icon.svg">
 </div>
 </div></div></div>
 <!--</header>-->
@@ -50,8 +49,8 @@
 <div class="card 1">
 
 <div class="card_image">
-<div v-if="img1" onclick="clickone()" style="background-image: url("backgroundGf.gif");"></div>
-<div v-if="img2" style="background: #346a68; background-image: url("tree.svg");"></div>
+<input type="image" v-if="img1" onclick="clickone()" style="background-image: url("backgroundGf.gif");">
+<input type="image" v-if="img2" style="background: #346a68; background-image: url("tree.svg");">
 </div>
 
 <!--<footer>-->
