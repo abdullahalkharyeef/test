@@ -150,13 +150,6 @@ label {
   height: 250px;
 }
 
-.nav {
-  display: none;
-}
-
-#header, #footer {
-  display: none;
-}
 
 @font-face {
   font-family: Yaseer;
