@@ -6,12 +6,19 @@
 <head>
 <title>test</title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="appstyle.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body class="body" onload="checkCookie()">
 
+
+
+
+
+
+
+<div id="scrollpage">
+<body class="body" onload="checkCookie()">
+<!--<header>-->
 <div id="app">
 <div v-if="Audio"><br><br><br><br><br>
 <div class="card 1">
@@ -19,12 +26,12 @@
 </div>
 </div> <!-- div v-if audio -->
 </div> <!-- div app id -->
+<!--</header>-->
 
 
 
 
-
-
+<!--<header>-->
 <div id="apptitle">
 <div v-if="title">
 <div class="cardme">
@@ -33,8 +40,7 @@
 </div>
 
 </div></div></div>
-
-
+<!--</header>-->
 
 
 
@@ -45,13 +51,15 @@
 <div v-if="card1">
 <div class="card 1">
 
-
 <div class="card_image">
 <img v-if="img1" onclick="clickone()" src="backgroundGf.gif">
 <img v-if="img2" src="backgroundGf.jpeg" style="background: #346a68">
 </div>
 
+<!--<footer>-->
 <p v-if="img1" style="color: white" class="card_title1 title-white" onclick="clickone()"><br><br><br><br>اضمر الصحابي</p>
+<!--</footer>-->
+
 <div class="card_title title-white">
 <div id="scrollcard" style="overflow-x:scroll; height:225px;">
 <p v-if="textproject" style="font-size:20px; color:white;">
@@ -118,7 +126,7 @@
 	</div>
 </div>
 
-
+<!--<footer>-->
 <!-- next btn underline -->
 <p class="nextbtn" onclick="guideone11()" v-if="textproject">التالي</p>
 <p class="nextbtn" onclick="guideone12()" v-if="guideone1">التالي</p>
@@ -181,6 +189,8 @@
 <p class="nextbtn" onclick="guideone104()" v-if="guidefour10">التالي</p>
 <p class="nextbtn" onclick="ansrguide10()" v-if="answersguide10">التالي</p>
 <p class="nextbtn" onclick="guideone110()" v-if="guide110">التالي</p>
+<!--</footer>-->
+
 </div>
 
 
@@ -188,8 +198,10 @@
 
 <div id="boxone" v-if="boxone">
 <p v-if="lasttext" style="text-align:center; font-size:35px; color:white;"><br><br><br><br>انتهت المسابقة <br> على أمل أن نجدد الأسئلة <br> ونزيدها قريباً بأذن الله ⁦❤️⁩</p>
-<p v-if="points" style="text-align:center; font-size:35px; color:white;">النقاط: 50/{{point}}</p>
 
+<!--<footer>-->
+<p v-if="points" style="text-align:center; font-size:35px; color:white;">النقاط: 50/{{point}}</p>
+<!--</footer>-->
 
 
 <div id="formAnswer" v-if="inputansr1" >
@@ -493,35 +505,18 @@
 
 
 
-
-<!-- <div id="apptwo" v-if="card2"><div class="card 2" onclick="clicktwo()">
-<div class="card_image">
-<img src="http://selfrecruiter.com/wp-content/uploads/2015/07/automne-1920-1080.jpg" />
-</div>
-<div class="card_title title-black">
-<p v-if="text">المسابقة الثانية</p> <p v-if="textproject">فكرة المسابقة الثانية</p>
-</div>
-</div></div>
-<div id="appthree" v-if="card3"><div class="card 3" onclick="clickthree()">
-<div class="card_image">
-<img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
-</div>
-<div class="card_title title-white">
-<p v-if="text">المسابقة الثالثة</p> <p v-if="textproject">فكرة المسابقة الثالثة</p>
-</div>
-</div></div>
-<div id="appfour" v-if="card4"><div class="card 4" onclick="clickfour()" >
-<div class="card_image">
-<img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" />
-</div>
-<div class="card_title title-black">
-<p v-if="text">المسابقة الرابعة</p> <p v-if="textproject">فكرة المسابقة الرابعة</p>
-</div>
-</div> -->
-
 </div>
 
 </body>
+
+
+
+
+</div> <!-- <div scrollpage-->
+</div> <!-- <div scrollpage-->
+
+
 <script src="vue.js"></script>
+<script src="awesomefont.js" crossorigin="anonymous"></script>
 <script src="app.js"></script>
 </html>
