@@ -69,7 +69,7 @@
   padding: 1em;
   border-radius: 10px;
   width: 350px;
-  clip-path: circle(10% at 90% 20%);
+  clip-path: circle(10% at 90% 10%);
   transition: all .2s ease-in-out;
   cursor: pointer;
 }
