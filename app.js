@@ -583,6 +583,7 @@ function play () {
     App.Audio=false;
     myApp1.card1= true;
     myApp.title= true;
+    animate.animation= false;
 }
 
 // Q1
