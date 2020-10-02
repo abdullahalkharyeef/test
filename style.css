@@ -8,13 +8,18 @@
   padding-bottom: 58px;
   min-height: 100vh;
 }*/
-.header {
+header {
+  text-align: center;
   top: 0;
+  color: #fff;
+  padding: 50px;
   width: 100%;
   position: fixed;
   z-index: 1;
 }
-.footer {
+footer {
+  text-align: center;
+  padding: 20px;
   position: absolute;
   bottom: 0;
   /*   height: 100%; */
@@ -64,7 +69,7 @@
   padding: 1em;
   border-radius: 10px;
   width: 350px;
-  clip-path: circle(10% at 90% 10%);
+  clip-path: circle(10% at 90% 20%);
   transition: all .2s ease-in-out;
   cursor: pointer;
 }
@@ -145,6 +150,13 @@ label {
   height: 250px;
 }
 
+.nav {
+  display: none;
+}
+
+#header, #footer {
+  display: none;
+}
 
 @font-face {
   font-family: Yaseer;
@@ -153,15 +165,11 @@ label {
 html {
   height: 100%;
   margin: 0;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 .body {width; 100%; background: #346a68;}
 html .body {
   /* The image used */
- background-image: url("tree.svg");
+/*  background-image: url("backgroundG.svg");*/
   /* Full height */
   height: 100%;
   
@@ -211,7 +219,7 @@ html .body {
   border-radius: 50px;
 }
 
-.card .card_image input {
+.card .card_image img {
   width: inherit;
   height: inherit;
   border-radius: 50px;
@@ -249,6 +257,7 @@ html .body {
   color: black;
 }
 #scrollpage {
+/*  background-image: url("svg/feather-alt-duotone.svg");*/
   overflow-x:scroll;
   height: 100%;
   background-position: center;
@@ -356,7 +365,7 @@ html .body {
   border-radius: 10px;
 }
 
-.cardme .card_imageme input {
+.cardme .card_imageme img {
   width: inherit;
   height: inherit;
   border-radius: 10px;
