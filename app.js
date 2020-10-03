@@ -11,68 +11,44 @@ var footerD = (heightD * 0.20)+ "px";
 
 
 
-function setCookie(cname,cvalue,exdays) {
-    
+function setCookie(cname,cvalue,exdays) {    
     var d = new Date();
-    
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    
     var expires = "expires=" + d.toGMTString();
-    
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-    
 }
 
 function getCookie(cname) {
-    
     var name = cname + "=";
-    
     var decodedCookie = decodeURIComponent(document.cookie);
-    
     var ca = decodedCookie.split(';');
-    
     for(var i = 0; i < ca.length; i++) {
-        
         var c = ca[i];
-        
         while (c.charAt(0) == ' ') {
-            
-            c = c.substring(1);
-            
+            c = c.substring(1);   
         }
-        
         if (c.indexOf(name) == 0) {
-            
-            return c.substring(name.length, c.length);
-            
+            return c.substring(name.length, c.length);   
         }
-        
     }
-    
     return "";
-    
 }
 
 function checkCookie() {
-    
-    var user=getCookie("username");
-    
+    var user =getCookie("username");
+    var pasword =getCookie("password");
     if (user != "") {
-        
-        alert("نورتنا يا " + user + " في لعبتنا 🌹");
-        
+        myApp1.username="نورتنا يا " + user + " في لعبتنا 🌹";        
     } else {
-        
-        user = prompt("من فضلك ادخل اسمك هنا:","");
-        
+        user = prompt("تسجيل الدخول/تسجيل جديد: من فضلك ادخل اسم المستخدم:","");
         if (user != "" && user != null) {
-            
             setCookie("username", user, 30);
-            
         }
-        
+        pasword= prompt("من فضلك ادخل الرقم السري:","");
+        if (pasword!= "" && pasword!= null) {
+            setCookie("pasword", pasword, 30);
+        }
     }
-    
 }
 
 
@@ -231,6 +207,8 @@ var boxone = new Vue({
 var myApp1 = new Vue({
     el: '#appone',
     data: {
+        username:"",
+        password:"",
         goldQ: false,
         card1: false,
         img1:true,
