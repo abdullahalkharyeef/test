@@ -1,0 +1,1 @@
+document.write("<div id='app'><div v-if='Audio'><br><br><br><br><br><div class='frontcard'><div class='front_image' onclick='play()'><img src='appFront.svg'></div></div></div> <!-- div v-if audio --></div> <!-- div app id -->");
