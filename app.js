@@ -1,3 +1,488 @@
+window.onload = function() {
+    document.getElementById("scrollpage").innerHTML = '
+    <body class="body" onload="checkCookie()">
+<!--<header>-->
+<div id="app">
+<div v-if="Audio"><br><br><br><br><br>
+<div class="frontcard">
+<div class="front_image" onclick="play()"><img src="appFront.svg"></div>
+</div>
+</div> <!-- div v-if audio -->
+</div> <!-- div app id -->
+<!--</header>-->
+
+
+
+
+<!--<header>-->
+<div id="apptitle">
+<div v-if="title">
+<div class="cardme">
+<div class="card_imageme"> <img src="icon.svg" />
+<img v-if="apptitlereturn" onclick="titlereturn()" src="" />
+</div>
+
+</div></div></div>
+<!--</header>-->
+
+
+
+
+
+<div class="cards-list">
+<div id="appone">
+<div v-if="card1">
+<div class="card 1">
+
+<div class="card_image">
+<img v-if="img1" onclick="clickone()" src="backgroundGf.gif">
+<img v-if="img2" src="backgroundGf.jpeg" style="background: #346a68">
+</div>
+
+<!--<footer>-->
+<p v-if="img1" style="color: white" class="card_title1 title-white" onclick="clickone()"><br><br><br><br>اضمر الصحابي</p>
+<!--</footer>-->
+
+<div class="card_title title-white">
+<div id="scrollcard" style="overflow-x:scroll; height:225px;">
+<p v-if="textproject" style="font-size:20px; color:white;">
+من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو صاحب هذه المواقف </p>
+<p v-if="guideone1" class="guidesize">{{guide11}}</p>
+<p v-if="guidetwo1" class="guidesize">{{guide12}}</p>
+<p v-if="guidethree1" class="guidesize">{{guide13}}</p>
+<p v-if="guidefour1" class="guidesize">{{guide14}}</p>
+<p v-if="guidefive1" class="guidesize">{{guide15}}</p>
+<p v-if="guideone2" class="guidesize">{{guide21}}</p>
+<p v-if="guidetwo2" class="guidesize">{{guide22}}</p>
+<p v-if="guidethree2" class="guidesize">{{guide23}}</p>
+<p v-if="guidefour2" class="guidesize">{{guide24}}</p>
+<p v-if="guidefive2" class="guidesize">{{guide25}}</p>
+<p v-if="guideone3" class="guidesize">{{guide31}}</p>
+<p v-if="guidetwo3" class="guidesize">{{guide32}}</p>
+<p v-if="guidethree3" class="guidesize">{{guide33}}</p>
+<p v-if="guidefour3" class="guidesize">{{guide34}}</p>
+<p v-if="guidefive3" class="guidesize">{{guide35}}</p>
+<p v-if="guideone4" class="guidesize">{{guide41}}</p>
+<p v-if="guidetwo4" class="guidesize">{{guide42}}</p>
+<p v-if="guidethree4" class="guidesize">{{guide43}}</p>
+<p v-if="guidefour4" class="guidesize">{{guide44}}</p>
+<p v-if="guidefive4" class="guidesize">{{guide45}}</p>
+<p v-if="guideone5" class="guidesize">{{guide51}}</p>
+<p v-if="guidetwo5" class="guidesize">{{guide52}}</p>
+<p v-if="guidethree5" class="guidesize">{{guide53}}</p>
+<p v-if="guidefour5" class="guidesize">{{guide54}}</p>
+<p v-if="guidefive5" class="guidesize">{{guide55}}</p>
+<p v-if="guideone6" class="guidesize">{{guide61}}</p>
+<p v-if="guidetwo6" class="guidesize">{{guide62}}</p>
+<p v-if="guidethree6" class="guidesize">{{guide63}}</p>
+<p v-if="guidefour6" class="guidesize">{{guide64}}</p>
+<p v-if="guidefive6" class="guidesize">{{guide65}}</p>
+<p v-if="guideone7" class="guidesize">{{guide71}}</p>
+<p v-if="guidetwo7" class="guidesize">{{guide72}}</p>
+<p v-if="guidethree7" class="guidesize">{{guide73}}</p>
+<p v-if="guidefour7" class="guidesize">{{guide74}}</p>
+<p v-if="guidefive7" class="guidesize">{{guide75}}</p>
+<p v-if="guideone8" class="guidesize">{{guide81}}</p>
+<p v-if="guidetwo8" class="guidesize">{{guide82}}</p>
+<p v-if="guidethree8" class="guidesize">{{guide83}}</p>
+<p v-if="guidefour8" class="guidesize">{{guide84}}</p>
+<p v-if="guidefive8" class="guidesize">{{guide85}}</p>
+<p v-if="guideone9" class="guidesize">{{guide91}}</p>
+<p v-if="guidetwo9" class="guidesize">{{guide92}}</p>
+<p v-if="guidethree9" class="guidesize">{{guide93}}</p>
+<p v-if="guidefour9" class="guidesize">{{guide94}}</p>
+<p v-if="guidefive9" class="guidesize">{{guide95}}</p>
+<p v-if="guideone10" class="guidesize">{{guide101}}</p>
+<p v-if="guidetwo10" class="guidesize">{{guide102}}</p>
+<p v-if="guidethree10" class="guidesize">{{guide103}}</p>
+<p v-if="guidefour10" class="guidesize">{{guide104}}</p>
+<p v-if="guidefive10" class="guidesize">{{guide105}}</p></div></div></div>
+</div> <!-- div v-if card1 -->
+<br>
+
+
+<div class="goldQ" v-if="goldQ">
+	<div class="Thecircle">
+		<span>السؤال<br> الذهبي</span>
+		<h1>مرحبًا</h1>
+		<p>السؤال الذهبي هو فرصة واحدة تتكون من تلميحة واحدة تكون لتفويت النقص</p>
+	</div>
+</div>
+
+<!--<footer>-->
+<!-- next btn underline -->
+<p class="nextbtn" onclick="guideone11()" v-if="textproject">التالي</p>
+<p class="nextbtn" onclick="guideone12()" v-if="guideone1">التالي</p>
+<p class="nextbtn" onclick="guideone13()" v-if="guidetwo1">التالي</p>
+<p class="nextbtn" onclick="guideone14()" v-if="guidethree1">التالي</p>
+<p class="nextbtn" onclick="guideone15()" v-if="guidefour1">التالي</p>
+<p class="nextbtn" onclick="ansrguide1()" v-if="answersguide1">التالي</p>
+<p class="nextbtn" onclick="guideone20()" v-if="guide2">التالي</p>
+<p class="nextbtn" onclick="guideone21()" v-if="guideone2">التالي</p>
+<p class="nextbtn" onclick="guideone22()" v-if="guidetwo2">التالي</p>
+<p class="nextbtn" onclick="guideone23()" v-if="guidethree2">التالي</p>
+<p class="nextbtn" onclick="guideone24()" v-if="guidefour2">التالي</p>
+<p class="nextbtn" onclick="ansrguide2()" v-if="answersguide2">التالي</p>
+<p class="nextbtn" onclick="guideone30()" v-if="guide3">التالي</p>
+<p class="nextbtn" onclick="guideone31()" v-if="guideone3">التالي</p>
+<p class="nextbtn" onclick="guideone32()" v-if="guidetwo3">التالي</p>
+<p class="nextbtn" onclick="guideone33()" v-if="guidethree3">التالي</p>
+<p class="nextbtn" onclick="guideone34()" v-if="guidefour3">التالي</p>
+<p class="nextbtn" onclick="ansrguide3()" v-if="answersguide3">التالي</p>
+<p class="nextbtn" onclick="guideone40()" v-if="guide4">التالي</p>
+<p class="nextbtn" onclick="guideone41()" v-if="guideone4">التالي</p>
+<p class="nextbtn" onclick="guideone42()" v-if="guidetwo4">التالي</p>
+<p class="nextbtn" onclick="guideone43()" v-if="guidethree4">التالي</p>
+<p class="nextbtn" onclick="guideone44()" v-if="guidefour4">التالي</p>
+<p class="nextbtn" onclick="ansrguide4()" v-if="answersguide4">التالي</p>
+<p class="nextbtn" onclick="guideone50()" v-if="guide5">التالي</p>
+<p class="nextbtn" onclick="guideone51()" v-if="guideone5">التالي</p>
+<p class="nextbtn" onclick="guideone52()" v-if="guidetwo5">التالي</p>
+<p class="nextbtn" onclick="guideone53()" v-if="guidethree5">التالي</p>
+<p class="nextbtn" onclick="guideone54()" v-if="guidefour5">التالي</p>
+<p class="nextbtn" onclick="ansrguide5()" v-if="answersguide5">التالي</p>
+<p class="nextbtn" onclick="guideone60()" v-if="guide6">التالي</p>
+<p class="nextbtn" onclick="guideone61()" v-if="guideone6">التالي</p>
+<p class="nextbtn" onclick="guideone62()" v-if="guidetwo6">التالي</p>
+<p class="nextbtn" onclick="guideone63()" v-if="guidethree6">التالي</p>
+<p class="nextbtn" onclick="guideone64()" v-if="guidefour6">التالي</p>
+<p class="nextbtn" onclick="ansrguide6()" v-if="answersguide6">التالي</p>
+<p class="nextbtn" onclick="guideone70()" v-if="guide7">التالي</p>
+<p class="nextbtn" onclick="guideone71()" v-if="guideone7">التالي</p>
+<p class="nextbtn" onclick="guideone72()" v-if="guidetwo7">التالي</p>
+<p class="nextbtn" onclick="guideone73()" v-if="guidethree7">التالي</p>
+<p class="nextbtn" onclick="guideone74()" v-if="guidefour7">التالي</p>
+<p class="nextbtn" onclick="ansrguide7()" v-if="answersguide7">التالي</p>
+<p class="nextbtn" onclick="guideone80()" v-if="guide8">التالي</p>
+<p class="nextbtn" onclick="guideone81()" v-if="guideone8">التالي</p>
+<p class="nextbtn" onclick="guideone82()" v-if="guidetwo8">التالي</p>
+<p class="nextbtn" onclick="guideone83()" v-if="guidethree8">التالي</p>
+<p class="nextbtn" onclick="guideone84()" v-if="guidefour8">التالي</p>
+<p class="nextbtn" onclick="ansrguide8()" v-if="answersguide8">التالي</p>
+<p class="nextbtn" onclick="guideone90()" v-if="guide9">التالي</p>
+<p class="nextbtn" onclick="guideone91()" v-if="guideone9">التالي</p>
+<p class="nextbtn" onclick="guideone92()" v-if="guidetwo9">التالي</p>
+<p class="nextbtn" onclick="guideone93()" v-if="guidethree9">التالي</p>
+<p class="nextbtn" onclick="guideone94()" v-if="guidefour9">التالي</p>
+<p class="nextbtn" onclick="ansrguide9()" v-if="answersguide9">التالي</p>
+<p class="nextbtn" onclick="guideone100()" v-if="guide10">التالي</p>
+<p class="nextbtn" onclick="guideone101()" v-if="guideone10">التالي</p>
+<p class="nextbtn" onclick="guideone102()" v-if="guidetwo10">التالي</p>
+<p class="nextbtn" onclick="guideone103()" v-if="guidethree10">التالي</p>
+<p class="nextbtn" onclick="guideone104()" v-if="guidefour10">التالي</p>
+<p class="nextbtn" onclick="ansrguide10()" v-if="answersguide10">التالي</p>
+<p class="nextbtn" onclick="guideone110()" v-if="guide110">التالي</p>
+<!--</footer>-->
+
+</div>
+
+
+
+
+<div id="boxone" v-if="boxone">
+<p v-if="lasttext" style="text-align:center; font-size:35px; color:white;"><br><br><br><br>انتهت المسابقة <br> على أمل أن نجدد الأسئلة <br> ونزيدها قريباً بأذن الله ⁦❤️⁩</p>
+
+<!--<footer>-->
+<p v-if="points" style="text-align:center; font-size:35px; color:white;">النقاط: 50/{{point}}</p>
+<!--</footer>-->
+
+
+<div id="formAnswer" v-if="inputansr1" >
+<label for="Answer">ادخل إجابتك</label>
+<input type="text" id="answerA1" name="Answer" placeholder="ادخل إجابتك :)">
+<input type="submit" onclick="answer1()" value="ارسل"><br><br>
+<input type="submit" onclick="answer1(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
+</div> <!-- div v-if inputansr1 -->
+<div v-if="optionansr1" id="optionAnswers">
+<div  class="boxfull" v-if="optionA1">
+اختر الإجابة الصحيحة:
+</div><br>
+<div id="scrollansr">
+<div class="box" id="fiveA" v-if="five1" onclick="fouroneA(5)">
+{{fiveA1}}
+</div><br>
+<div class="box" id="fourA" v-if="four1" onclick="fouroneA(4)">
+{{fourA1}}
+</div><br>
+<div class="box" id="oneA" v-if="one1" onclick="fouroneA(1)">
+{{oneA1}}
+</div><br>
+<div class="box" id="twoA" v-if="two1" onclick="fouroneA(2)">
+{{twoA1}}
+</div><br>
+<div class="box" id="threeA" v-if="three1" onclick="fouoneA()">
+{{threeA1}}
+</div>
+</div> <!-- div scrollansr -->
+</div> <!-- div v-if optionansr1 -->
+
+<div id="formAnswer" v-if="inputansr2" >
+<label for="Answer">ادخل إجابتك</label>
+<input type="text" id="answerA2" name="Answer" placeholder="ادخل إجابتك :)">
+<input type="submit" onclick="answer2()" value="ارسل"><br><br>
+<input type="submit" onclick="answer2(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
+</div> <!-- div v-if inputansr2 -->
+<div v-if="optionansr2" id="optionAnswers">
+<div  class="boxfull" v-if="optionA2">
+اختر الإجابة الصحيحة:
+</div><br>
+<div id="scrollansr">
+<div class="box" id="threeA" v-if="three2" onclick="fouoneA2()">
+{{threeA2}}
+</div><br>
+<div class="box" id="fiveA" v-if="five2" onclick="fouroneA2(5)">
+{{fiveA2}}
+</div><br>
+<div class="box" id="fourA" v-if="four2" onclick="fouroneA2(4)">
+{{fourA2}}
+</div><br>
+<div class="box" id="oneA" v-if="one2" onclick="fouroneA2(1)">
+{{oneA2}}
+</div><br>
+<div class="box" id="twoA" v-if="two2" onclick="fouroneA2(2)">
+{{twoA2}}
+</div>
+</div> <!-- div scrollansr -->
+</div> <!-- div v-if optionansr2 -->
+
+<div id="formAnswer" v-if="inputansr3" >
+<label for="Answer">ادخل إجابتك</label>
+<input type="text" id="answerA3" name="Answer" placeholder="ادخل إجابتك :)">
+<input type="submit" onclick="answer3()" value="ارسل"><br><br>
+<input type="submit" onclick="answer3(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
+</div> <!-- div v-if inputansr3 -->
+<div v-if="optionansr3" id="optionAnswers">
+<div  class="boxfull" v-if="optionA3">
+اختر الإجابة الصحيحة:
+</div><br>
+<div id="scrollansr">
+<div class="box" id="fiveA" v-if="five3" onclick="fouroneA3(5)">
+{{fiveA3}}
+</div><br>
+<div class="box" id="fourA" v-if="four3" onclick="fouroneA3(4)">
+{{fourA3}}
+</div><br>
+<div class="box" id="threeA" v-if="three3" onclick="fouoneA3()">
+{{threeA3}}
+</div><br>
+<div class="box" id="oneA" v-if="one3" onclick="fouroneA3(1)">
+{{oneA3}}
+</div><br>
+<div class="box" id="twoA" v-if="two3" onclick="fouroneA3(2)">
+{{twoA3}}
+</div>
+</div> <!-- div scrollansr -->
+</div> <!-- div v-if optionansr3 -->
+
+<div id="formAnswer" v-if="inputansr4" >
+<label for="Answer">ادخل إجابتك</label>
+<input type="text" id="answerA4" name="Answer" placeholder="ادخل إجابتك :)">
+<input type="submit" onclick="answer4()" value="ارسل"><br><br>
+<input type="submit" onclick="answer4(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
+</div> <!-- div v-if inputansr4 -->
+<div v-if="optionansr4" id="optionAnswers">
+<div  class="boxfull" v-if="optionA4">
+اختر الإجابة الصحيحة:
+</div><br>
+<div id="scrollansr">
+<div class="box" id="fiveA" v-if="five4" onclick="fouroneA4(5)">
+{{fiveA4}}
+</div><br>
+<div class="box" id="fourA" v-if="four4" onclick="fouroneA4(4)">
+{{fourA4}}
+</div><br>
+<div class="box" id="oneA" v-if="one4" onclick="fouroneA4(1)">
+{{oneA4}}
+</div><br>
+<div class="box" id="threeA" v-if="three4" onclick="fouoneA4()">
+{{threeA4}}
+</div><br>
+<div class="box" id="twoA" v-if="two4" onclick="fouroneA4(2)">
+{{twoA4}}
+</div>
+</div> <!-- div scrollansr -->
+</div> <!-- div v-if optionansr4 -->
+
+<div id="formAnswer" v-if="inputansr5" >
+<label for="Answer">ادخل إجابتك</label>
+<input type="text" id="answerA5" name="Answer" placeholder="ادخل إجابتك :)">
+<input type="submit" onclick="answer5()" value="ارسل"><br><br>
+<input type="submit" onclick="answer5(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
+</div> <!-- div v-if inputansr5 -->
+<div v-if="optionansr5" id="optionAnswers">
+<div  class="boxfull" v-if="optionA5">
+اختر الإجابة الصحيحة:
+</div><br>
+<div id="scrollansr">
+<div class="box" id="fiveA" v-if="five5" onclick="fouroneA5(5)">
+{{fiveA5}}
+</div><br>
+<div class="box" id="fourA" v-if="four5" onclick="fouroneA5(4)">
+{{fourA5}}
+</div><br>
+<div class="box" id="oneA" v-if="one5" onclick="fouroneA5(1)">
+{{oneA5}}
+</div><br>
+<div class="box" id="twoA" v-if="two5" onclick="fouroneA5(2)">
+{{twoA5}}
+</div><br>
+<div class="box" id="threeA" v-if="three5" onclick="fouoneA5()">
+{{threeA5}}
+</div>
+</div> <!-- div scrollansr -->
+</div> <!-- div v-if optionansr5 -->
+
+<div id="formAnswer" v-if="inputansr6" >
+<label for="Answer">ادخل إجابتك</label>
+<input type="text" id="answerA6" name="Answer" placeholder="ادخل إجابتك :)">
+<input type="submit" onclick="answer6()" value="ارسل"><br><br>
+<input type="submit" onclick="answer6(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
+</div> <!-- div v-if inputansr2 -->
+<div v-if="optionansr6" id="optionAnswers">
+<div  class="boxfull" v-if="optionA6">
+اختر الإجابة الصحيحة:
+</div><br>
+<div id="scrollansr">
+<div class="box" id="fiveA" v-if="five6" onclick="fouroneA6(5)">
+{{fiveA6}}
+</div><br>
+<div class="box" id="threeA" v-if="three6" onclick="fouoneA6()">
+{{threeA6}}
+</div><br>
+<div class="box" id="fourA" v-if="four6" onclick="fouroneA6(4)">
+{{fourA6}}
+</div><br>
+<div class="box" id="oneA" v-if="one6" onclick="fouroneA6(1)">
+{{oneA6}}
+</div><br>
+<div class="box" id="twoA" v-if="two6" onclick="fouroneA6(2)">
+{{twoA6}}
+</div>
+</div> <!-- div scrollansr -->
+</div> <!-- div v-if optionansr6 -->
+
+<div id="formAnswer" v-if="inputansr7" >
+<label for="Answer">ادخل إجابتك</label>
+<input type="text" id="answerA7" name="Answer" placeholder="ادخل إجابتك :)">
+<input type="submit" onclick="answer7()" value="ارسل"><br><br>
+<input type="submit" onclick="answer7(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
+</div> <!-- div v-if inputansr7 -->
+<div v-if="optionansr7" id="optionAnswers">
+<div  class="boxfull" v-if="optionA7">
+اختر الإجابة الصحيحة:
+</div><br>
+<div id="scrollansr">
+<div class="box" id="fiveA" v-if="five7" onclick="fouroneA7(5)">
+{{fiveA7}}
+</div><br>
+<div class="box" id="fourA" v-if="four7" onclick="fouroneA7(4)">
+{{fourA7}}
+</div><br>
+<div class="box" id="oneA" v-if="one7" onclick="fouroneA7(1)">
+{{oneA7}}
+</div><br>
+<div class="box" id="twoA" v-if="two7" onclick="fouroneA7(2)">
+{{twoA7}}
+</div><br>
+<div class="box" id="threeA" v-if="three7" onclick="fouoneA7()">
+{{threeA7}}
+</div>
+</div> <!-- div scrollansr -->
+</div> <!-- div v-if optionansr7 -->
+
+<div id="formAnswer" v-if="inputansr8" >
+<label for="Answer">ادخل إجابتك</label>
+<input type="text" id="answerA8" name="Answer" placeholder="ادخل إجابتك :)">
+<input type="submit" onclick="answer8()" value="ارسل"><br><br>
+<input type="submit" onclick="answer8(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
+</div> <!-- div v-if inputansr8 -->
+<div v-if="optionansr8" id="optionAnswers">
+<div  class="boxfull" v-if="optionA8">
+اختر الإجابة الصحيحة:
+</div><br>
+<div id="scrollansr">
+<div class="box" id="fiveA" v-if="five8" onclick="fouroneA8(5)">
+{{fiveA8}}
+</div><br>
+<div class="box" id="fourA" v-if="four8" onclick="fouroneA8(4)">
+{{fourA8}}
+</div><br>
+<div class="box" id="threeA" v-if="three8" onclick="fouoneA8()">
+{{threeA8}}
+</div><br>
+<div class="box" id="oneA" v-if="one8" onclick="fouroneA8(1)">
+{{oneA8}}
+</div><br>
+<div class="box" id="twoA" v-if="two8" onclick="fouroneA8(2)">
+{{twoA8}}
+</div>
+</div> <!-- div scrollansr -->
+</div> <!-- div v-if optionansr8 -->
+
+<div id="formAnswer" v-if="inputansr9" >
+<label for="Answer">ادخل إجابتك</label>
+<input type="text" id="answerA9" name="Answer" placeholder="ادخل إجابتك :)">
+<input type="submit" onclick="answer9()" value="ارسل"><br><br>
+<input type="submit" onclick="answer9(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
+</div> <!-- div v-if inputansr9 -->
+<div v-if="optionansr9" id="optionAnswers">
+<div  class="boxfull" v-if="optionA9">
+اختر الإجابة الصحيحة:
+</div><br>
+<div id="scrollansr">
+<div class="box" id="fiveA" v-if="five9" onclick="fouroneA9(5)">
+{{fiveA9}}
+</div><br>
+<div class="box" id="threeA" v-if="three9" onclick="fouoneA9()">
+{{threeA9}}
+</div><br>
+<div class="box" id="fourA" v-if="four9" onclick="fouroneA9(4)">
+{{fourA9}}
+</div><br>
+<div class="box" id="oneA" v-if="one9" onclick="fouroneA9(1)">
+{{oneA9}}
+</div><br>
+<div class="box" id="twoA" v-if="two9" onclick="fouroneA9(2)">
+{{twoA9}}
+</div>
+</div> <!-- div scrollansr -->
+</div> <!-- div v-if optionansr9 -->
+
+<div id="formAnswer" v-if="inputansr10" >
+<label for="Answer">ادخل إجابتك</label>
+<input type="text" id="answerA10" name="Answer" placeholder="ادخل إجابتك :)">
+<input type="submit" onclick="answer10()" value="ارسل"><br><br>
+<input type="submit" onclick="answer10x()" value="خيارات (نقطة واحده بدل خمس نقاط)">
+</div> <!-- div v-if inputansr10 -->
+<div v-if="optionansr10" id="optionAnswers">
+<div  class="boxfull" v-if="optionA10">
+اختر الإجابة الصحيحة:
+</div><br>
+<div id="scrollansr">
+<div class="box" id="threeA" v-if="three10" onclick="fouoneA10()">
+{{threeA10}}
+</div><br>
+<div class="box" id="fiveA" v-if="five10" onclick="fouroneA10(5)">
+{{fiveA10}}
+</div><br>
+<div class="box" id="fourA" v-if="four10" onclick="fouroneA10(4)">
+{{fourA10}}
+</div><br>
+<div class="box" id="oneA" v-if="one10" onclick="fouroneA10(1)">
+{{oneA10}}
+</div><br>
+<div class="box" id="twoA" v-if="two10" onclick="fouroneA10(2)">
+{{twoA10}}
+</div>
+</div> <!-- div scrollansr -->
+</div> <!-- div v-if optionansr10 -->
+
+</div> <!-- div v-if boxone -->
+</div> <!-- div complete appone -->
+</div>
+</body>';
+}
+
 var heightD = window.screen.height;
 
 var headerD = (heightD * 0.20) + "px";
