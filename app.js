@@ -505,7 +505,7 @@ function answer10x () {
 
 
 function play (){
-setTimeout(play1(),5000);
+setTimeout(play1,5000);
 }
 
 function play1 () {
