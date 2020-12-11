@@ -1,61 +1,3 @@
-// window.onload = function() {
-//     document.getElementById("scrollpage").innerHTML = '';
-// }
-
-var heightD = window.screen.height;
-
-var headerD = (heightD * 0.20) + "px";
-var contentD = (heightD * 0.60)+ "px";
-var footerD = (heightD * 0.20)+ "px";
-// document.getElementById("headerDv").style.height= headerD;
-// document.getElementById("contentDv").style.height= contentD;
-// document.getElementById("footerDv").style.height= footerD;
-
-
-
-
-
-function setCookie(cname,cvalue,exdays) {    
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires=" + d.toGMTString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-}
-
-function getCookie(cname) {
-    var name = cname + "=";
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(';');
-    for(var i = 0; i < ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == ' ') {
-            c = c.substring(1);   
-        }
-        if (c.indexOf(name) == 0) {
-            return c.substring(name.length, c.length);   
-        }
-    }
-    return "";
-}
-
-function checkCookie() {
-    var user =getCookie("username");
-    var pasword =getCookie("password");
-    if (user != "") {
-        myApp1.username="نورتنا يا " + user + " في لعبتنا 🌹";        
-    } else {
-        user = prompt("تسجيل الدخول/تسجيل جديد: من فضلك ادخل اسم المستخدم:","");
-        if (user != "" && user != null) {
-            setCookie("username", user, 30);
-        }
-        pasword= prompt("من فضلك ادخل الرقم السري:","");
-        if (pasword!= "" && pasword!= null) {
-            setCookie("pasword", pasword, 30);
-        }
-    }
-}
-
-
 var myApp = new Vue({
     el: '#apptitle',
     data: {
@@ -561,11 +503,14 @@ function answer10x () {
     //        titlereturn ();
 }
 
+
 function play () {
+    setTimeout(function(){
     App.Audio=false;
     myApp1.card1= true;
     myApp.title= true;
     animate.animation= false;
+    }, 5000);
 }
 
 // Q1
