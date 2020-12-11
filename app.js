@@ -504,13 +504,15 @@ function answer10x () {
 }
 
 
-function play () {
-    setTimeout(function(){
+function play (){
+setTimeout(play1(),5000);
+}
+
+function play1 () {
     App.Audio=false;
     myApp1.card1= true;
     myApp.title= true;
     animate.animation= false;
-    }, 5000);
 }
 
 // Q1
