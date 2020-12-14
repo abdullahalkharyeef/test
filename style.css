@@ -283,8 +283,8 @@ html .body {
 /*  background-image: url("svg/feather-alt-duotone.svg");*/
   overflow-x:scroll;
   position: absolute;
-  top: 30%;
-
+  top: 10%;
+  width: -webkit-fill-available;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
