@@ -290,12 +290,6 @@ var myApp1 = new Vue({
         
     }
 })
-var App = new Vue({
-    el: '#app',
-    data: {
-        Audio: true
-    }
-})
 
 
 //             if (boxone.optionansr1===true || boxone.optionansr2===true || boxone.optionansr3===true || boxone.optionansr4===true || boxone.optionansr5===true || boxone.optionansr6===true || boxone.optionansr7===true || boxone.optionansr8===true || boxone.optionansr9===true || boxone.optionansr10===true){
@@ -510,7 +504,6 @@ setTimeout(play1,5000);
 
 function play1 () {
     document.getElementById("svgfront").style.display = "none";
-    App.Audio=false;
     myApp1.card1= true;
     myApp.title= true;
     animate.animation= false;
