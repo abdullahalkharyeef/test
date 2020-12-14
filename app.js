@@ -509,6 +509,7 @@ setTimeout(play1,5000);
 }
 
 function play1 () {
+    document.getElementById("eylz889kkksh1").style.display = "none";
     App.Audio=false;
     myApp1.card1= true;
     myApp.title= true;
