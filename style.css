@@ -282,9 +282,9 @@ html .body {
 #scrollpage {
 /*  background-image: url("svg/feather-alt-duotone.svg");*/
   overflow-x:scroll;
-  padding-top:20%;
-  padding-bottom:20%;
-  height: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
