@@ -280,14 +280,9 @@ html .body {
   color: black;
 }
 #scrollpage {
-/*  background-image: url("svg/feather-alt-duotone.svg");*/
   overflow-x:scroll;
   position: absolute;
   top: 10%;
-  width: -webkit-fill-available;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 #scrollcard {
   margin-left: 20px;
