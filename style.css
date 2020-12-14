@@ -279,10 +279,24 @@ html .body {
 .title-black {
   color: black;
 }
+
+#scrollheader {
+  overflow-x:scroll;
+  position: absolute;
+  top: 0%;
+  height: 20%;
+}
+#scrollfooter {
+  overflow-x:scroll;
+  position: absolute;
+  top: 80%;
+  height: 20%;
+}
 #scrollpage {
   overflow-x:scroll;
   position: absolute;
-  top: 10%;
+  top: 20%;
+  height: 60%;
 }
 #scrollcard {
   margin-left: 20px;
