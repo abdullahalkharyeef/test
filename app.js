@@ -503,7 +503,7 @@ setTimeout(play1,5000);
 }
 
 function play1 () {
-    document.getElementById("svgfront").style.display = "none";
+    document.getElementById("svg_front").style.display = "none";
     myApp1.card1= true;
     myApp.title= true;
     animate.animation= false;
