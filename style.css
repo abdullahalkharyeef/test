@@ -8,7 +8,8 @@
   padding-bottom: 58px;
   min-height: 100vh;
 }*/
-header {
+
+/*header {
   text-align: center;
   top: 0;
   color: #fff;
@@ -26,7 +27,7 @@ footer {
   width: 100%;
   position: fixed;
   z-index: 1;
-}
+}*/
 
 
 
@@ -283,7 +284,7 @@ html .body {
   color: black;
 }
 
-#scrollheader {
+/*#scrollheader {
   overflow-x:scroll;
   position: absolute;
   top: 0%;
@@ -294,12 +295,12 @@ html .body {
   position: absolute;
   top: 80%;
   height: 20%;
-}
+}*/
 #scrollpage {
   overflow-x:scroll;
   position: absolute;
   top: 20%;
-  height: 60%;
+  /*height: 60%;*/
 }
 #scrollcard {
   margin-left: 20px;
@@ -335,8 +336,6 @@ html .body {
   background-repeat: no-repeat;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-  transition: 0.6s;
 }
 
 
@@ -391,9 +390,7 @@ html .body {
   width: 130px;
   height: 90px;
   border-radius: 10px;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
   cursor: pointer;
-  transition: 0.5s;
 }
 
 .cardme .card_imageme {
@@ -417,11 +414,6 @@ html .body {
   height: 40px;
 }
 
-.cardme:hover {
-  transform: scale(0.9, 0.9);
-  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25),
-  -5px -5px 30px 15px rgba(0,0,0,0.22);
-}
 
 .title-whiteme {
   color: white;
@@ -440,8 +432,6 @@ html .body {
   background-repeat: no-repeat;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-  transition: 0.4s;
 }
 
 @media all and (max-width: 120px){
