@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-#svg_front{
-height:100%
-}
 /*body {
   position: relative;
   padding-bottom: 58px;
@@ -36,6 +33,9 @@ footer {
 
 
 
+#svg_front{
+height:100%
+}
 
 
 #container_all{
