@@ -169,7 +169,7 @@ html {
 }
 .body {width; 100%; background: #346a68;}
 html .body {
-  background-image: "background.svg";
+  background-image: url("background.svg");
   background-repeat: no-repeat;
 }
 
