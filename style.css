@@ -66,16 +66,16 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 .Thecircle {
   border: 2px solid #9dc2d4;
   padding: 1em;
   margin: 30px;
-  border-radius: 10px;
+  border-radius: 6px;
   width: 350px;
-  clip-path: circle(10% at 90% 22%);
+  clip-path: circle(10% at 90% 20%);
   transition: all .2s ease-in-out;
   cursor: pointer;
 }
