@@ -292,6 +292,7 @@ html {
   font-size:30px;
   animation: moving 10s infinite;
   position: relative;
+  color: white;
 }
 
 @-webkit-keyframes moving {
