@@ -74,7 +74,7 @@ body {
   padding: 1em;
   border-radius: 10px;
   width: 350px;
-  clip-path: circle(15% at 90% 20%);
+  clip-path: circle(10% at 80% 20%);
   transition: all .2s ease-in-out;
   cursor: pointer;
 }
@@ -92,7 +92,7 @@ body {
 }
 .Thecircle span {
   float: right;
-  color: white;
+  color: #9dc2d4;
   font-weight: bold;
   transition: color .2s;
   position: relative;
@@ -100,7 +100,7 @@ body {
   margin-right: 1%;
 }
 .Thecircle:hover span {
-  color: #9dc2d4;
+  color: white;
 }
 
 
