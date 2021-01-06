@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url(background.svg);
 }
 /*body {
   position: relative;
@@ -167,7 +168,7 @@ html {
   background-image: url(background.svg);
   background-repeat: no-repeat;
 }
-.body {width; 100%; background: #346a68;}
+.body {width; 100%; }
 html .body {
 }
 
