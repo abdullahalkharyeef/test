@@ -70,7 +70,7 @@ body {
 }
 
 .Thecircle {
-  background: gold;
+  background: #9dc2d4;
   padding: 1em;
   border-radius: 10px;
   width: 350px;
@@ -80,7 +80,7 @@ body {
 }
 .Thecircle:hover {
   clip-path: circle(75%);
-  background: gold;
+  background: #9dc2d4;
 }
 .Thecircle h1 {
   color: black;
@@ -100,7 +100,7 @@ body {
   margin-right: 1%;
 }
 .Thecircle:hover span {
-  color: rgba(255, 255, 255, 0);
+  color: #9dc2d4;
 }
 
 
@@ -116,7 +116,7 @@ input[type=text], select {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid #9dc2d4;
   border-radius: 4px;
   box-sizing: border-box;
   font-family: Yaseer;
@@ -135,7 +135,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #9dc2d4;
 }
 
 #formAnswer {
@@ -144,7 +144,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   width: 250px;
   height: auto;
-  background: #346a68;
+  background: #9dc2d4;
   padding: 20px;
   margin: 60px auto;
   font-family: Yaseer;
@@ -187,14 +187,14 @@ html {
 }
 .nextbtn {
   padding-top: 20%;
-  border: 4px solid white;
+  border: 4px solid #9dc2d4;
   border-radius: 50px;
   font-size: 30px;
   margin: 60px auto;
   text-align: center;
   width: 300px;
   color:white;
-  background: #346a68;
+  /* background: #346a68; */
 }
 
 .frontcard {
@@ -202,10 +202,8 @@ html {
   width: 300px;
   height: 300px;
   border-radius: 50px;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
   cursor: pointer;
   transition: 0.6s; */
-padding-top: 20%;
 }
 
 .frontcard .front_image {
@@ -259,11 +257,11 @@ padding-top: 20%;
   font-weight: 500;
   margin-top: -205px;
   height: 40px;
-  color: #346a68;
+  color: #9dc2d4;
 }
 
 .title-white {
-  color: white;
+  color: #9dc2d4;
 }
 .title-black {
   color: black;
@@ -345,7 +343,6 @@ padding-top: 20%;
   text-align: center;
   position: relative;
   color: white;
-  background: #346a68;
   background-clip: padding-box;
   border: solid 5px transparent;
   border-radius: 10px;
@@ -356,7 +353,7 @@ padding-top: 20%;
   margin: -5px;
   border-radius: inherit;
   z-index: -1;
-  background: white;
+  background: #9dc2d4;
 }
 
 
@@ -408,7 +405,7 @@ padding-top: 20%;
 
 
 .title-whiteme {
-  color: white;
+  color: #9dc2d4;
 }
 
 .title-blackme {
@@ -443,8 +440,7 @@ padding-top: 20%;
   padding: 15px 30px;
   text-align: center;
   position: relative;
-  color: white;
-  background: #346a68;
+  color: #9dc2d4;
   background-clip: padding-box;
   border: solid 3px transparent;
   border-radius: 10px;
@@ -456,5 +452,4 @@ padding-top: 20%;
   margin: -3px;
   border-radius: inherit;
   z-index: -1;
-  background: white;
 }
