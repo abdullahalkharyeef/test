@@ -31,12 +31,11 @@ footer {
 }*/
 
 
-#html{
+body {
   background-image: url(background.svg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed;  
   background-size: cover;
-}
 }
 
 
@@ -173,8 +172,7 @@ html {
   margin: 0;
 }
 .body {width; 100%; }
-html .body {
-}
+
 
 .cards-list {
   font-family: Yaseer;
