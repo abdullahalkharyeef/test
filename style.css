@@ -70,7 +70,7 @@ body {
 }
 
 .Thecircle {
-  border: 5px solid #9dc2d4;
+  border: 2px solid #9dc2d4;
   padding: 1em;
   border-radius: 10px;
   width: 350px;
@@ -80,10 +80,10 @@ body {
 }
 .Thecircle:hover {
   clip-path: circle(75%);
-  border: 10px solid #9dc2d4;
+  border: 2px solid #9dc2d4;
 }
 .Thecircle h1 {
-  color: #9dc2d4;
+  color: white;
   margin: 0;
 }
 .Thecircle p {
@@ -139,7 +139,7 @@ input[type=submit]:hover {
 
 #formAnswer {
   padding-top: 20%;
-  color: white ;
+  color: #9dc2d4 ;
   border-radius: 5px;
   width: 250px;
   height: auto;
@@ -189,7 +189,7 @@ html {
   margin: 60px auto;
   text-align: center;
   width: 300px;
-  color:white;
+  color:#9dc2d4;
   /* background: #346a68; */
 }
 
