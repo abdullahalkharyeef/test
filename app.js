@@ -1,3 +1,6 @@
+
+document.getElementById("html").style.height = screen.height+"px";
+
 var myApp = new Vue({
     el: '#apptitle',
     data: {
