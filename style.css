@@ -66,7 +66,7 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 .Thecircle {
@@ -75,7 +75,7 @@ body {
   margin: 30px;
   border-radius: 10px;
   width: 350px;
-  clip-path: circle(10% at 90% 15%);
+  clip-path: circle(10% at 90% 22%);
   transition: all .2s ease-in-out;
   cursor: pointer;
 }
