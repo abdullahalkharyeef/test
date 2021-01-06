@@ -133,12 +133,9 @@ input[type=submit] {
   font-family: Yaseer;
 }
 
-input[type=submit]:hover {
-  border: 2px solid #9dc2d4;
-}
 
 #formAnswer {
-  padding-top: 20%;
+  padding-top: 40%;
   color: #9dc2d4 ;
   border-radius: 5px;
   width: 250px;
