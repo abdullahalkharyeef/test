@@ -166,11 +166,11 @@ label {
 html {
   height: 100%;
   margin: 0;
+  background-image: url('background.svg');
+  background-repeat: no-repeat;
 }
 .body {width; 100%; background: #346a68;}
 html .body {
-  background-image: url("background.svg");
-  background-repeat: no-repeat;
 }
 
 .cards-list {
