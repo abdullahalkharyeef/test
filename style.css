@@ -2,11 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url(background.svg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
+  
 }
 /*body {
   position: relative;
@@ -35,7 +31,13 @@ footer {
 }*/
 
 
-
+#html{
+  background-image: url(background.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+}
 
 
 
