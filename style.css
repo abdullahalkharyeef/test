@@ -83,11 +83,11 @@ body {
   border: 2px solid #9dc2d4;
 }
 .Thecircle h1 {
-  color: white;
+  color: #9dc2d4;
   margin: 0;
 }
 .Thecircle p {
-  color: #9dc2d4;
+  color: white;
   font-size: 1.5em;
 }
 .Thecircle span {
