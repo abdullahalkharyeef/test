@@ -72,9 +72,10 @@ body {
 .Thecircle {
   border: 2px solid #9dc2d4;
   padding: 1em;
+  margin: 30px;
   border-radius: 10px;
   width: 350px;
-  clip-path: circle(10% at 80% 20%);
+  clip-path: circle(10% at 90% 15%);
   transition: all .2s ease-in-out;
   cursor: pointer;
 }
