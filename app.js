@@ -516,7 +516,6 @@ function animattop (){
 }
 function animattop1 (){
     document.body.style.backgroundImage= "url('PicsArt_01-06-09.svg')";
-  "
 }
 
 // Q1
