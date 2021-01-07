@@ -1495,15 +1495,10 @@ function guideone110() {
 
 
 
-function apptitlereturn () {
-    myApp.apptitle=true;
-    myApp.apptitlereturn=false;
-}
 
 function titlereturn (){
     myApp1.goldQ=false;
     myApp.title=true;
-    //   myApp.apptitlereturn=false;
     //   myApp1.card1= true;
     myApp1.img1=false;
     myApp1.img2=false;
