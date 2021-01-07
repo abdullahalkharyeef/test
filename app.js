@@ -509,13 +509,12 @@ function play1 () {
     document.getElementById("svg_front").style.display = "none";
     myApp1.card1= true;
     myApp.title= true;
-    animate.animation= false;
 }
 function animattop (){
     setTimeout(animattop1,7000);
 }
 function animattop1 (){
-    document.body.style.backgroundImage= "url('PicsArt_01-06-09.svg')";
+    document.body.style.backgroundImage= "url(PicsArt_01-06-09.svg)";
 }
 
 // Q1
