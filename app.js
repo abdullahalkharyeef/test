@@ -509,6 +509,7 @@ function play1 () {
     document.getElementById("svg_front").style.display = "none";
     myApp1.card1= true;
     myApp.title= true;
+    document.getElementsByClassName("cards-list").style.display="block";
 }
 function animattop (){
     setTimeout(animattop1,5000);
