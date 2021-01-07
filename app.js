@@ -511,7 +511,7 @@ function play1 () {
     myApp.title= true;
 }
 function animattop (){
-    setTimeout(animattop1,7000);
+    setTimeout(animattop1,5000);
 }
 function animattop1 (){
     document.body.style.backgroundImage = "url('background.svg')";
