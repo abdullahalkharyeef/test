@@ -512,7 +512,7 @@ function play1 () {
     animate.animation= false;
 }
 function animattop (){
-    setTimeout(animattop1,5000);
+    setTimeout(animattop1,7000);
 }
 function animattop1 (){
     var elementFirst = document.getElementsByClassName("animattop");
