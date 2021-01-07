@@ -1498,7 +1498,7 @@ function guideone110() {
 
 function titlereturn (){
     myApp1.goldQ=false;
-    myApp.title=true;
+//     myApp.title=true;
     //   myApp1.card1= true;
     myApp1.img1=false;
     myApp1.img2=false;
@@ -1702,7 +1702,7 @@ function clickone () {
     // myApp3.card3= false;
     // myApp4.card4= false;
     myApp1.text=false;
-    myApp.title=false;
+//     myApp.title=false;
     myApp1.textproject=true;
     myApp1.img1=false;
     myApp1.img2=true;
