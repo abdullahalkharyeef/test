@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
+
 /*body {
   position: relative;
   padding-bottom: 58px;
@@ -109,7 +109,7 @@ body {
 
 
 input[type=text], select {
-  background-image: url(empty.png);
+  background-image: url(Empty.png);
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
