@@ -1,15 +1,15 @@
 
 // document.getElementsByTagName("html").style.height = screen.height+"px";
 
-var myApp = new Vue({
-    el: '#apptitle',
-    data: {
-        title: false,
-        apptitle:true,
-        apptitlereturn:false,
-        text: 'المسابقة',
-    }
-})
+// var myApp = new Vue({
+//     el: '#apptitle',
+//     data: {
+//         title: true,
+//         apptitle:true,
+//         apptitlereturn:false,
+//         text: 'المسابقة',
+//     }
+// })
 
 
 var boxone = new Vue({
@@ -159,7 +159,7 @@ var myApp1 = new Vue({
         username:"",
         password:"",
         goldQ: false,
-        card1: false,
+        card1: true,
         img1:true,
         img2:false,
         text: true,
@@ -507,9 +507,7 @@ setTimeout(play1,5000);
 
 function play1 () {
     document.getElementById("svg_front").style.display = "none";
-    myApp1.card1= true;
-    myApp.title= true;
-    document.getElementsByClassName("cards-list").style.display="block";
+    document.getElementsByClassName("cards-list").style.display= "block";
 }
 function animattop (){
     setTimeout(animattop1,5000);
