@@ -511,6 +511,13 @@ function play1 () {
     myApp.title= true;
     animate.animation= false;
 }
+function animattop (){
+    setTimeout(animattop1,5000);
+}
+function animattop1 (){
+    var elementFirst = document.getElementsByClassName("animattop");
+    elementFirst.classList.add("w3-container w3-centerw3-animate-top");
+}
 
 // Q1
 function guideone11 (){
