@@ -91,7 +91,6 @@ input[type=text], select {
 
 input[type=submit] {
   font-size: 10px;
-  background-image: url(Empty.png);
   width: 100%;
   color: #9dc2d4;
   padding: 14px 20px;
