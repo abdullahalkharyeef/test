@@ -390,7 +390,7 @@ html {
   position: relative;
   color: #9dc2d4;
   background-clip: padding-box;
-  border: solid 2px transparent;
+  border: solid 2px #9dc2d4;
   border-radius: 4px;
   cursor: auto;
 }
