@@ -208,7 +208,15 @@ html {
   color: #9dc2d4
   height: 40px;
 }
-
+.card .card_title2 {
+  text-align:center;
+  border-radius: 0px 0px 20px 20px;
+  font-family: Yaseer;
+  font-size: 80px;
+  margin-top: -200px;
+  color: #9dc2d4
+  height: 40px;
+}
 .title-white {
   color: #9dc2d4;
 }
