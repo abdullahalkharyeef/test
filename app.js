@@ -1,5 +1,5 @@
 
-document.getElementsByTagName("html").style.height = screen.height+"px";
+// document.getElementsByTagName("html").style.height = screen.height+"px";
 
 var myApp = new Vue({
     el: '#apptitle',
