@@ -89,6 +89,7 @@ input[type=text], select {
 }
 
 input[type=submit] {
+  font-size: 10px;
   background-image: url(Empty.png);
   width: 100%;
   color: #9dc2d4;
@@ -249,7 +250,7 @@ html {
 }
 #scrollansr {
   overflow-x:scroll;
-  height:150px;
+  height:300px;
 }
 .guidesize {
   font-size:30px;
