@@ -86,6 +86,7 @@ input[type=text], select {
   border-radius: 2px;
   box-sizing: border-box;
   font-family: Yaseer;
+  color: #9dc2d4;
 }
 
 input[type=submit] {
