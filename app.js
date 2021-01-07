@@ -1,5 +1,5 @@
 
-document.getElementById("html").style.height = screen.height+"px";
+document.getElementsByTagName("html").style.height = screen.height+"px";
 
 var myApp = new Vue({
     el: '#apptitle',
@@ -514,7 +514,7 @@ function animattop (){
     setTimeout(animattop1,7000);
 }
 function animattop1 (){
-    document.body.style.backgroundImage= "url('background.svg')";
+    document.body.style.backgroundImage = "url('background.svg')";
 }
 
 // Q1
