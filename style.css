@@ -41,23 +41,15 @@ body {
 
 
 #container_all{
-
   display: flex;
-
   flex-direction: column;
-
   width: 75%;
-
   margin: auto;
-
 }
 
 .container {
-
   width: 100%;
-
-  border: 3px solid #9dc2d4; 
-
+  border: 2px solid #9dc2d4; 
 }
 
 
@@ -121,7 +113,7 @@ input[type=text], select {
 }
 
 input[type=submit] {
-  background-image: url(empty.png);
+  background-image: url(Empty.png);
   width: 100%;
   color: #9dc2d4;
   padding: 14px 20px;
@@ -155,9 +147,7 @@ label {
   display: none;
 }
 
-#header, #footer {
-  display: none;
-}
+
 
 @font-face {
   font-family: Yaseer;
@@ -217,6 +207,7 @@ html {
   height: 300px;
   border-radius: 20px;
   cursor: auto;
+  border: 2px solid #9dc2d4;
 }
 
 .card .card_image {
