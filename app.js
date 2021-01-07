@@ -507,7 +507,7 @@ setTimeout(play1,5000);
 
 function play1 () {
     document.getElementById("svg_front").style.display = "none";
-    document.getElementsByClassName("cards-list").style.display= "block";
+    document.getElementById("startApp").style.display= "block";
 }
 function animattop (){
     setTimeout(animattop1,5000);
