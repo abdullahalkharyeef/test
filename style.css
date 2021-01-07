@@ -335,12 +335,13 @@ html {
   border-radius: 4px;
   font-size:20px;
 }
+
 .border {
   position: absolute;
   margin: -5px;
   border-radius: inherit;
   z-index: -1;
-  background: #9dc2d4;
+  color: #9dc2d4;
 }
 
 
