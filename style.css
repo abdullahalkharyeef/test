@@ -279,7 +279,7 @@ html {
   font-size:30px;
   animation: moving 10s infinite;
   position: relative;
-  color: white;
+  color: #9dc2d4;
 }
 
 @-webkit-keyframes moving {
@@ -297,11 +297,8 @@ html {
   margin: 30px auto;
   width: 300px;
   height: 300px;
+  border: 2px solid #9dc2d4;
   border-radius: 20px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 
