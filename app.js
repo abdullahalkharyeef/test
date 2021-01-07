@@ -506,8 +506,6 @@ setTimeout(play1,5000);
 }
 
 function play1 () {
-    var elementFirst = document.getElementsByClassName("animattop");
-    elementFirst.classList.add("w3-container\sw3-centerw3-animate-to");
     document.getElementById("svg_front").style.display = "none";
     myApp1.card1= true;
     myApp.title= true;
