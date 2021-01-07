@@ -4,31 +4,6 @@
   box-sizing: border-box;
 }
 
-/*body {
-  position: relative;
-  padding-bottom: 58px;
-  min-height: 100vh;
-}*/
-
-/*header {
-  text-align: center;
-  top: 0;
-  color: #fff;
-  padding: 50px;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-}
-footer {
-  text-align: center;
-  padding: 20px;
-  position: absolute;
-  bottom: 0;
-     height: 100%; 
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-}*/
 
 
 body {
@@ -176,17 +151,9 @@ html {
   text-align: center;
   width: 300px;
   color:#9dc2d4;
-  /* background: #346a68; */
 }
 
-.frontcard {
-/*   margin: 60px auto;
-  width: 300px;
-  height: 300px;
-  border-radius: 50px;
-  cursor: auto;
-  transition: 0.6s; */
-}
+.frontcard {}
 
 .frontcard .front_image {
   width: inherit;
@@ -199,6 +166,7 @@ html {
   border-radius: 20px;
   object-fit: cover;
 }
+
 
 .card {
   font-family: Yaseer;
