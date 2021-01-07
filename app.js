@@ -515,8 +515,8 @@ function animattop (){
     setTimeout(animattop1,7000);
 }
 function animattop1 (){
-    var elementFirst = document.getElementsByClassName("animattop");
-    elementFirst.classList.add("w3-container w3-centerw3-animate-top");
+    document.body.style.backgroundImage= "url('PicsArt_01-06-09.svg')";
+  "
 }
 
 // Q1
