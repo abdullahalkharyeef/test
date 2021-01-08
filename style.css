@@ -106,7 +106,7 @@ input[type=submit] {
   padding-top: 40%;
   color: #9dc2d4 ;
   border-radius: 2px;
-  width: 250px;
+  width: 70%;
   height: auto;
   border: 2px solid #9dc2d4;
   padding: 20px;
@@ -151,7 +151,7 @@ html {
   font-size: 30px;
   margin: 60px auto;
   text-align: center;
-  width: 300px;
+  width: 70%;
   color:#9dc2d4;
 }
 
@@ -173,29 +173,24 @@ html {
 .card {
   font-family: Yaseer;
   margin: 60px auto;
-  width: 300px;
+  width: 70%;
   height: 300px;
-  border-radius: 20px;
+  border-radius: 10px;
   cursor: auto;
   border: 2px solid #9dc2d4;
 }
 
 .card .card_image {
-  width: inherit;
-  height: inherit;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .card .card_image img {
-  width: inherit;
-  height: inherit;
-  border-radius: 20px;
-  object-fit: cover;
+  border-radius: 10px;
 }
 
 .card .card_title {
   text-align:center;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px 10px 10px;
   font-family: Yaseer;
   font-size: 30px;
   margin-top: -270px;
@@ -203,20 +198,20 @@ html {
 }
 .card .card_title1 {
   text-align:center;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px 10px 10px;
   font-family: Yaseer;
   font-size: 80px;
   margin-top: -280px;
-  color: #9dc2d4
+  color: #9dc2d4;
   height: 40px;
 }
 .card .card_title2 {
   text-align:center;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px 10px 10px;
   font-family: Yaseer;
   font-size: 80px;
   margin-top: -200px;
-  color: #9dc2d4
+  color: #9dc2d4;
   height: 40px;
 }
 .title-white {
@@ -254,7 +249,7 @@ html {
 }
 .guidesize {
   font-size:30px;
-  animation: moving 10s infinite;
+  animation: moving 14s infinite;
   position: relative;
   color: #9dc2d4;
 }
@@ -271,11 +266,10 @@ html {
 
 
 .card {
-  margin: 30px auto;
-  width: 300px;
+  width: 70%;
   height: 300px;
   border: 2px solid #9dc2d4;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 
@@ -287,7 +281,7 @@ html {
 
 .box {
   margin: 5px auto;
-  width: 300px;
+  width: 70%;
   font-family: Yaseer;
   font-size: 30px;
   box-sizing: border-box;
@@ -297,7 +291,7 @@ html {
   color: #9dc2d4;
   background-clip: padding-box;
   border: solid 2px #9dc2d4;
-  border-radius: 4px;
+  border-radius: 2px;
   font-size:20px;
 }
 
@@ -326,7 +320,7 @@ html {
 
 .cardme {
   font-family: Yaseer;
-  margin: 30px auto;
+/*   margin: 30px auto; */
   width: 130px;
   height: 90px;
   border-radius: 10px;
@@ -334,20 +328,16 @@ html {
 }
 
 .cardme .card_imageme {
-  width: inherit;
-  height: inherit;
   border-radius: 10px;
 }
 
 .cardme .card_imageme img {
-  width: inherit;
-  height: inherit;
   border-radius: 10px;
   object-fit: cover;
 }
 .cardme .card_titleme {
   text-align: center;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px 10px 10px;
   font-family: Yaseer;
   font-size: 30px;
   margin-top: -100px;
@@ -364,14 +354,9 @@ html {
 }
 .cardme {
   font-family: Yaseer;
-  margin: 30px auto;
   width: 120px;
   height: 90px;
-  border-radius: 20px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 @media all and (max-width: 120px){
@@ -383,7 +368,7 @@ html {
 
 .boxfull {
   margin: 10px auto;
-  width: 300px;
+  width: 70%;
   font-family: Yaseer;
   font-size: 30px;
   box-sizing: border-box;
