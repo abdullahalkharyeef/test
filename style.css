@@ -41,20 +41,19 @@ body {
 
 
 .goldQ {
+  padding-bottom: 10%;
   margin: 0;
   display: grid;
   justify-items: center;
   align-items: center;
-  margin-top: 2%;
 }
 
 .Thecircle {
   border: 2px solid #9dc2d4;
   padding: 1em;
   margin: 30px;
-  border-radius: 6px;
-  width: 300px;
-  transition: all .2s ease-in-out;
+  border-radius: 4px;
+  width: 70%;
   cursor: auto;
 }
 .Thecircle:hover {
@@ -74,8 +73,9 @@ body {
   font-weight: bold;
   transition: color .2s;
   position: relative;
-  margin-left: 4%;
+  margin-left: 2%;
   margin-right: 1%;
+  margin-bottom: 21%;
 }
 .Thecircle:hover span {
   color: #9dc2d4;
@@ -129,7 +129,7 @@ label {
   text-align:center;
 }
 #optionAnswers {
-  height: 250px;
+  height: 40%;
 }
 
 .nav {
@@ -159,9 +159,9 @@ html {
 }
 .nextbtn {
   border: 2px solid #9dc2d4;
-  border-radius: 20px;
+  border-radius: 4px;
   font-size: 30px;
-  margin: 60px auto;
+  margin: 0px auto;
   text-align: center;
   width: 70%;
   color:#9dc2d4;
@@ -257,7 +257,7 @@ html {
 }
 #scrollansr {
   overflow-x:scroll;
-  height:300px;
+  height: 100%;
 }
 .guidesize {
   font-size:30px;
