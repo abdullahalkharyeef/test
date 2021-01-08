@@ -6,16 +6,16 @@
 }
 
 ::placeholder {
-  color: red;
+  color: #9dc2d4;
   opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
- color: red;
+ color: #9dc2d4;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
- color: red;
+ color: #9dc2d4;
 }
 
 body {
