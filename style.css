@@ -129,6 +129,7 @@ label {
 }
 #optionAnswers {
   height: 250px;
+  margin-top: 10%;
 }
 
 .nav {
@@ -164,7 +165,6 @@ html {
   text-align: center;
   width: 70%;
   color:#9dc2d4;
-  margin-bottom: 5%;
 }
 
 .frontcard {}
