@@ -128,7 +128,7 @@ label {
   text-align:center;
 }
 #optionAnswers {
-  height: 20%;
+  height: 250px;
 }
 
 .nav {
@@ -257,7 +257,7 @@ html {
 }
 #scrollansr {
   overflow-x:scroll;
-  height: 50%;
+  height: 100%;
 }
 .guidesize {
   font-size:30px;
