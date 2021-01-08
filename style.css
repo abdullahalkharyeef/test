@@ -258,7 +258,7 @@ html {
 }
 #scrollansr {
   overflow-x:scroll;
-  height: 100%;
+  height: 50%;
 }
 .guidesize {
   font-size:30px;
