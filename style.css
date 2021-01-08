@@ -83,20 +83,21 @@ input[type=text], select {
   margin: 8px 0;
   display: inline-block;
   border: 2px solid #9dc2d4;
-  border-radius: 2px;
+  border-radius: 4px;
   box-sizing: border-box;
   font-family: Yaseer;
   color: #9dc2d4;
 }
 
 input[type=submit] {
+  background-color: white;
   font-size: 10px;
   width: 100%;
   color: #9dc2d4;
   padding: 14px 20px;
   margin: 8px 0;
   border: 2px solid #9dc2d4;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: auto;
   font-family: Yaseer;
 }
@@ -105,7 +106,7 @@ input[type=submit] {
 #formAnswer {
   padding-top: 40%;
   color: #9dc2d4 ;
-  border-radius: 2px;
+  border-radius: 4px;
   width: 70%;
   height: auto;
   border: 2px solid #9dc2d4;
@@ -172,7 +173,7 @@ html {
 
 .card {
   font-family: Yaseer;
-  margin: 60px auto;
+  margin: 0px auto;
   width: 70%;
   height: 300px;
   border-radius: 10px;
@@ -280,7 +281,7 @@ html {
 }
 
 .box {
-  margin: 5px auto;
+  margin: 0px auto;
   width: 70%;
   font-family: Yaseer;
   font-size: 30px;
@@ -320,7 +321,7 @@ html {
 
 .cardme {
   font-family: Yaseer;
-/*   margin: 30px auto; */
+  margin: 0px auto;
   width: 130px;
   height: 90px;
   border-radius: 10px;
@@ -367,7 +368,7 @@ html {
 
 
 .boxfull {
-  margin: 10px auto;
+  margin: 0px auto;
   width: 70%;
   font-family: Yaseer;
   font-size: 30px;
