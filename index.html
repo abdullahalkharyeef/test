@@ -183,19 +183,19 @@ __SVGATOR_PLAYER__.build({"root":"e0lqaj8vjub0k1","animations":[{"duration":5000
 اختر الإجابة الصحيحة:
 </div><br>
 <div id="scrollansr">
-<div class="box" id="fiveA" v-if="five1" onclick="fouroneA(5)">
+<div class="box" id="fiveA" v-if="five1" class="button" onclick="fouroneA(5)">
 {{fiveA1}}
 </div><br>
-<div class="box" id="fourA" v-if="four1" onclick="fouroneA(4)">
+<div class="box" id="fourA" v-if="four1" class="button" onclick="fouroneA(4)">
 {{fourA1}}
 </div><br>
-<div class="box" id="oneA" v-if="one1" onclick="fouroneA(1)">
+<div class="box" id="oneA" v-if="one1" class="button" onclick="fouroneA(1)">
 {{oneA1}}
 </div><br>
-<div class="box" id="twoA" v-if="two1" onclick="fouroneA(2)">
+<div class="box" id="twoA" v-if="two1" class="button" onclick="fouroneA(2)">
 {{twoA1}}
 </div><br>
-<div class="box" id="threeA" v-if="three1" onclick="fouoneA()">
+<div class="box" id="threeA" v-if="three1" class="button" onclick="fouoneA()">
 {{threeA1}}
 </div>
 </div> <!-- div scrollansr -->
@@ -468,6 +468,16 @@ __SVGATOR_PLAYER__.build({"root":"e0lqaj8vjub0k1","animations":[{"duration":5000
 </body>
 	
 	</div>
+<style>
+.button {
+  box-shadow: 0 9px #999;
+}
+
+.button:active {
+  background: #3cb043;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 	
 <script src="vue.js"></script>
 <script src="awesomefont.js" crossorigin="anonymous"></script>
